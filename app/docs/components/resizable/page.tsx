@@ -102,7 +102,7 @@ export default function ResizablePage() {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/8bit/resizable"
+} from "@/components/ui/vector/resizable"
 `}</CodeSnippet>
 
       <CodeSnippet>{`<ResizablePanelGroup direction="horizontal">

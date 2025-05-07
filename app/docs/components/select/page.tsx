@@ -1,14 +1,14 @@
 import { Metadata } from "next"
 
 import { selectMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/select"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -81,7 +81,7 @@ export default function SelectPage() {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"`}</CodeSnippet>
+} from "@/components/ui/vector/select"`}</CodeSnippet>
 
       <CodeSnippet>
         {`<Select>

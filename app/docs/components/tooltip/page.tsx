@@ -1,14 +1,14 @@
 import { Metadata } from "next"
 
 import { tooltipMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/8bit/tooltip"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/tooltip"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -82,7 +82,7 @@ export default function TooltipPage() {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/8bit/tooltip"`}
+} from "@/components/ui/vector/tooltip"`}
       </CodeSnippet>
 
       <CodeSnippet>

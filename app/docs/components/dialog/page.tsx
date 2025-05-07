@@ -1,7 +1,8 @@
 import { Metadata } from "next"
 
 import { dialogMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 import {
   Dialog,
   DialogContent,
@@ -10,17 +11,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/8bit/dialog"
-import { Input } from "@/components/ui/8bit/input"
-import { Label } from "@/components/ui/8bit/label"
+} from "@/components/ui/vector/dialog"
+import { Input } from "@/components/ui/vector/input"
+import { Label } from "@/components/ui/vector/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/select"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -119,7 +119,7 @@ export default function DialogPage() {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/8bit/dialog";
+} from "@/components/ui/vector/dialog";
 `}</CodeSnippet>
 
       <CodeSnippet>{`<Dialog>

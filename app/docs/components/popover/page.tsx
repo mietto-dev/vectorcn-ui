@@ -1,15 +1,15 @@
 import { Metadata } from "next"
 
 import { popoverMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
-import { Input } from "@/components/ui/8bit/input"
-import { Label } from "@/components/ui/8bit/label"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
+import { Input } from "@/components/ui/vector/input"
+import { Label } from "@/components/ui/vector/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/8bit/popover"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/popover"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -118,7 +118,7 @@ export default function PopoverPage() {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/8bit/popover";`}</CodeSnippet>
+} from "@/components/ui/vector/popover";`}</CodeSnippet>
 
       <CodeSnippet>{`<Popover>
   <PopoverTrigger>Open</PopoverTrigger>

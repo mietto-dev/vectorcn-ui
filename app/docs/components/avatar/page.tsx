@@ -1,12 +1,12 @@
 import { Metadata } from "next"
 
 import { avatarMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/components/ui/8bit/avatar"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/avatar"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -87,7 +87,7 @@ export default function AvatarPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/8bit/avatar"`}</CodeSnippet>
+      <CodeSnippet>{`import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/vector/avatar"`}</CodeSnippet>
 
       <CodeSnippet>{`<Avatar>
   <AvatarImage src="https://8bitcn.com/images/pixelized-8bitcnorc.jpg" alt="@8bitcn" />

@@ -4,7 +4,6 @@ import { Press_Start_2P } from "next/font/google"
 import { Command as CommandPrimitive } from "cmdk"
 
 import { cn } from "@/lib/utils"
-import { Separator } from "@/components/ui/8bit/separator"
 import {
   Command as ShadcnCommand,
   CommandDialog as ShadcnCommandDialog,
@@ -22,6 +21,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog"
+import { Separator } from "@/components/ui/vector/separator"
 
 const pressStart = Press_Start_2P({
   weight: ["400"],

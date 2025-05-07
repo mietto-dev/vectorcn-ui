@@ -17,7 +17,7 @@ export function SiteHeader() {
           <h2
             className={`${pressStart.className} hidden font-bold md:inline-block text-xs`}
           >
-            8bitcn/ui
+            vectorcn/ui
           </h2>
         </Link>
 

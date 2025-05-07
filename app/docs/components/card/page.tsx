@@ -1,7 +1,8 @@
 import { Metadata } from "next"
 
 import { cardMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 import {
   Card,
   CardContent,
@@ -9,17 +10,16 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/8bit/card"
-import { Input } from "@/components/ui/8bit/input"
-import { Label } from "@/components/ui/8bit/label"
+} from "@/components/ui/vector/card"
+import { Input } from "@/components/ui/vector/input"
+import { Label } from "@/components/ui/vector/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/select"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -111,7 +111,7 @@ export default function TextareaPage() {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/8bit/card"`}</CodeSnippet>
+} from "@/components/ui/vector/card"`}</CodeSnippet>
 
       <CodeSnippet>
         {`<Card>

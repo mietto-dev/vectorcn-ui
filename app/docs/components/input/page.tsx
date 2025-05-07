@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { inputMetaData } from "@/lib/metadata"
-import { Input } from "@/components/ui/8bit/input"
 import { Separator } from "@/components/ui/separator"
+import { Input } from "@/components/ui/vector/input"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -61,7 +61,7 @@ export default function InputPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Input } from "@/components/ui/8bit/input"`}</CodeSnippet>
+      <CodeSnippet>{`import { Input } from "@/components/ui/vector/input"`}</CodeSnippet>
 
       <CodeSnippet>{`<Input placeholder="Enter text" />`}</CodeSnippet>
     </div>

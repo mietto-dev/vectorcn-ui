@@ -1,7 +1,8 @@
 import { Metadata } from "next"
 
 import { dropdownMenuMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,8 +16,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/8bit/dropdown-menu"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/dropdown-menu"
 import CodeSnippet from "@/app/docs/components/code-snippet"
 import CopyCommandButton from "@/app/docs/components/copy-command-button"
 import InstallationCommands from "@/app/docs/components/installation-commands"
@@ -141,7 +141,7 @@ export default function DropdownMenuPage() {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@/components/ui/8bit/dropdown-menu";`}</CodeSnippet>
+} from "@/components/ui/vector/dropdown-menu";`}</CodeSnippet>
 
       <CodeSnippet>{`<DropdownMenu>
   <DropdownMenuTrigger asChild>

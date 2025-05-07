@@ -3,8 +3,8 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { Badge } from "./ui/8bit/badge"
 import { SidebarMenuButton, SidebarMenuItem } from "./ui/sidebar"
+import { Badge } from "./ui/vector/badge"
 
 type SidebarItemProps = {
   item: {

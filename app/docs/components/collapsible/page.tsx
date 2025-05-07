@@ -66,7 +66,7 @@ export default function CollapsiblePage() {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/8bit/collapsible"`}</CodeSnippet>
+} from "@/components/ui/vector/collapsible"`}</CodeSnippet>
 
       <CodeSnippet>{`<Collapsible>
   <CollapsibleTrigger>Can I use this in my project?</CollapsibleTrigger>

@@ -60,7 +60,7 @@ const CalendarPage = () => {
 
       <Separator />
 
-      <CodeSnippet>{`import { Calendar } from "@/components/ui/8bit/calendar"`}</CodeSnippet>
+      <CodeSnippet>{`import { Calendar } from "@/components/ui/vector/calendar"`}</CodeSnippet>
 
       <CodeSnippet>{`const [date, setDate] = React.useState<Date | undefined>(new Date())
       

@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { separatorMetaData } from "@/lib/metadata"
-import { Separator } from "@/components/ui/8bit/separator"
 import { Separator as ShadcnSeparator } from "@/components/ui/separator"
+import { Separator } from "@/components/ui/vector/separator"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
