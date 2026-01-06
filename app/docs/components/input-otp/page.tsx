@@ -1,13 +1,13 @@
 import { Metadata } from "next"
 
 import { inputOtpMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@/components/ui/8bit/input-otp"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/input-otp"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -82,7 +82,7 @@ const InputOTPPage = () => {
   InputOTPGroup,
   InputOTPSlot,
   InputOTPSeparator
-} from "@/components/ui/8bit/input-otp"`}</CodeSnippet>
+} from "@/components/ui/vector/input-otp"`}</CodeSnippet>
 
       <CodeSnippet>{`<InputOTP maxLength={6}>
   <InputOTPGroup>

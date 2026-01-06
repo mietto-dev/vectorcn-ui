@@ -1,22 +1,21 @@
-import { Press_Start_2P } from "next/font/google"
 import { cva, VariantProps } from "class-variance-authority"
 import { DayPicker } from "react-day-picker"
 
+import { simplex } from "@/config/fonts"
 import { cn } from "@/lib/utils"
-import { Calendar as ShadcnCalendar } from "@/components/ui/calendar"
+import {
+  defaultClassNames,
+  Calendar as ShadcnCalendar,
+} from "@/components/ui/calendar"
+import { Card } from "@/components/ui/vector/card"
 
 import { buttonVariants } from "./button"
-
-const pressStart = Press_Start_2P({
-  weight: ["400"],
-  subsets: ["latin"],
-})
 
 export const calendarVariants = cva("", {
   variants: {
     font: {
       normal: "",
-      retro: pressStart.className,
+      retro: simplex.className,
     },
   },
   defaultVariants: {
@@ -29,12 +28,7 @@ export type CalendarProps = React.ComponentProps<typeof DayPicker> &
 
 function Calendar({ className, classNames, font, ...props }: CalendarProps) {
   return (
-    <div
-      className={cn(
-        "flex justify-center relative border-y-6 border-foreground dark:border-ring !p-0",
-        className
-      )}
-    >
+    <Card className="py-3 bg">
       <ShadcnCalendar
         className={cn(
           calendarVariants({
@@ -43,6 +37,8 @@ function Calendar({ className, classNames, font, ...props }: CalendarProps) {
           })
         )}
         classNames={{
+          months: cn("justify-center uppercase"),
+          table: cn("justify-self-center"),
           nav_button: cn(
             buttonVariants({ variant: "outline" }),
             "size-7 bg-transparent p-0 flex items-center justify-center opacity-50 hover:opacity-100 border-2 border-foreground dark:border-ring"
@@ -51,7 +47,11 @@ function Calendar({ className, classNames, font, ...props }: CalendarProps) {
             buttonVariants({ variant: "ghost" }),
             "size-9 p-0 font-normal aria-selected:opacity-100"
           ),
-          caption_label: "text-xs font-medium",
+          caption_label: "text-sm font-semibold",
+          head_cell: cn(
+            defaultClassNames.head_cell,
+            "font-semibold bg-muted-foreground/10 p-0.5 pt-1"
+          ),
           ...classNames,
         }}
         components={{
@@ -135,12 +135,7 @@ function Calendar({ className, classNames, font, ...props }: CalendarProps) {
         }}
         {...props}
       />
-
-      <div
-        className="absolute inset-0 border-x-6 -mx-1.5 border-foreground dark:border-ring pointer-events-none"
-        aria-hidden="true"
-      />
-    </div>
+    </Card>
   )
 }
 

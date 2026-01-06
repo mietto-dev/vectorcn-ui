@@ -2,9 +2,9 @@ import * as React from "react"
 import type { Metadata } from "next"
 
 import { radioGroupMetaData } from "@/lib/metadata"
-import { Label } from "@/components/ui/8bit/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/8bit/radio-group"
 import { Separator } from "@/components/ui/separator"
+import { Label } from "@/components/ui/vector/label"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/vector/radio-group"
 import CodeSnippet from "@/app/docs/components/code-snippet"
 import CopyCommandButton from "@/app/docs/components/copy-command-button"
 import InstallationCommands from "@/app/docs/components/installation-commands"
@@ -74,8 +74,8 @@ export default function RadioGroupPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Label } from "@/components/ui/8bit/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/8bit/radio-group"`}</CodeSnippet>
+      <CodeSnippet>{`import { Label } from "@/components/ui/vector/label"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/vector/radio-group"`}</CodeSnippet>
 
       <CodeSnippet>{` 
 <RadioGroup defaultValue="comfortable">

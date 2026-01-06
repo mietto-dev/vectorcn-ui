@@ -1,16 +1,17 @@
 import { Metadata } from "next"
 
 import { sheetMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
-import { Input } from "@/components/ui/8bit/input"
-import { Label } from "@/components/ui/8bit/label"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
+import { Input } from "@/components/ui/vector/input"
+import { Label } from "@/components/ui/vector/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"
+} from "@/components/ui/vector/select"
 import {
   Sheet,
   SheetClose,
@@ -20,8 +21,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/8bit/sheet"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/sheet"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -119,7 +119,7 @@ const SheetPage = () => {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/8bit/sheet"`}</CodeSnippet>
+} from "@/components/ui/vector/sheet"`}</CodeSnippet>
 
       <CodeSnippet>{`<Sheet>
   <SheetTrigger>Open</SheetTrigger>

@@ -6,7 +6,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/8bit/collapsible"
+} from "@/components/ui/vector/collapsible"
 
 export function CollapsibleDemo() {
   const [isOpen, setIsOpen] = useState(false)

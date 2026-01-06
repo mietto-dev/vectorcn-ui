@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { skeletonMetaData } from "@/lib/metadata"
-import { Skeleton } from "@/components/ui/8bit/skeleton"
 import { Separator } from "@/components/ui/separator"
+import { Skeleton } from "@/components/ui/vector/skeleton"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -66,7 +66,7 @@ export default function SkeletonPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Skeleton } from "@/components/ui/8bit/skeleton"`}</CodeSnippet>
+      <CodeSnippet>{`import { Skeleton } from "@/components/ui/vector/skeleton"`}</CodeSnippet>
 
       <CodeSnippet>
         {`<div className="flex flex-col space-y-5">

@@ -1,11 +1,11 @@
-import { Card, CardContent } from "@/components/ui/8bit/card"
+import { Card, CardContent } from "@/components/ui/vector/card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/8bit/carousel"
+} from "@/components/ui/vector/carousel"
 
 export function CarouselDemo() {
   return (

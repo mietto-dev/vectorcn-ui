@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { pressStart } from "@/config/fonts"
 import { navItems } from "@/config/nav-items"
 import { Button } from "@/components/ui/button"
+import { Text } from "@/components/ui/vector/text"
 import { ModeSwitcher } from "@/components/mode-switcher"
 
 import MobileNav from "./mobile-nav"
@@ -13,12 +13,8 @@ export function SiteHeader() {
     <header className="flex sticky top-0 z-50 h-14 shrink-0 items-center gap-2 border-b border-dashed bg-background/95">
       <div className="flex w-full items-center h-full gap-1 px-4 md:gap-5 md:px-6 max-w-[1400px] mx-auto border-dashed border-l border-r">
         <Link href="/" className="hidden md:flex items-center gap-2">
-          <Image src="/8bitcn.png" alt="logo" width={32} height={32} />{" "}
-          <h2
-            className={`${pressStart.className} hidden font-bold md:inline-block text-xs`}
-          >
-            8bitcn/ui
-          </h2>
+          <Image src="/vectorcn.svg" alt="logo" width={32} height={32} />{" "}
+          <Text variant="h3">vectorcn/ui</Text>
         </Link>
 
         <div className="block md:hidden">

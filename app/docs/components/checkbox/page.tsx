@@ -1,9 +1,9 @@
 import { Metadata } from "next"
 
 import { checkboxMetaData } from "@/lib/metadata"
-import { Checkbox } from "@/components/ui/8bit/checkbox"
-import { Label } from "@/components/ui/8bit/label"
 import { Separator } from "@/components/ui/separator"
+import { Checkbox } from "@/components/ui/vector/checkbox"
+import { Label } from "@/components/ui/vector/label"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -65,7 +65,7 @@ export default function CheckboxPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Checkbox } from "@/components/ui/8bit/checkbox"`}</CodeSnippet>
+      <CodeSnippet>{`import { Checkbox } from "@/components/ui/vector/checkbox"`}</CodeSnippet>
 
       <CodeSnippet>{`<Checkbox />`}</CodeSnippet>
     </div>

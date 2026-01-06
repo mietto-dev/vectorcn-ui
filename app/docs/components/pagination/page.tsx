@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 
 import { paginationMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   Pagination,
   PaginationContent,
@@ -9,8 +10,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/8bit/pagination"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/pagination"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -91,7 +91,7 @@ export default function PaginationPage() {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/components/ui/8bit/pagination"`}</CodeSnippet>
+} from "@/components/ui/vector/pagination"`}</CodeSnippet>
       <CodeSnippet>{`<Pagination>
   <PaginationContent>
     <PaginationItem>

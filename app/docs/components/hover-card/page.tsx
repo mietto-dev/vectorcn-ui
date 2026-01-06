@@ -1,13 +1,13 @@
 import { Metadata } from "next"
 
 import { hoverCardMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
+import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/8bit/hover-card"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/hover-card"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -76,7 +76,7 @@ const HoverCardPage = () => {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/8bit/hover-card"`}</CodeSnippet>
+} from "@/components/ui/vector/hover-card"`}</CodeSnippet>
 
       <CodeSnippet>{`<HoverCard>
   <HoverCardTrigger>

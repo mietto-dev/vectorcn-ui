@@ -2,8 +2,8 @@ import { Metadata } from "next"
 import { Bold, Italic, Underline } from "lucide-react"
 
 import { toggleMetaData } from "@/lib/metadata"
-import { Toggle } from "@/components/ui/8bit/toggle"
 import { Separator } from "@/components/ui/separator"
+import { Toggle } from "@/components/ui/vector/toggle"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"

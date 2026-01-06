@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { chartMetaData } from "@/lib/metadata"
-import { ChartExample } from "@/components/ui/8bit/blocks/chart"
 import { Separator } from "@/components/ui/separator"
+import { ChartExample } from "@/components/ui/vector/blocks/chart"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -57,7 +57,7 @@ export default function ChartPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { ChartExample } from "@/components/ui/8bit/blocks/chart"`}</CodeSnippet>
+      <CodeSnippet>{`import { ChartExample } from "@/components/ui/vector/blocks/chart"`}</CodeSnippet>
 
       <CodeSnippet>{`<ChartExample />`}</CodeSnippet>
     </div>

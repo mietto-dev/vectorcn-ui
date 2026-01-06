@@ -2,44 +2,44 @@ import Image from "next/image"
 import Link from "next/link"
 import { Activity, Upload, Users } from "lucide-react"
 
-import { pressStart } from "@/config/fonts"
-import { LoginForm } from "@/components/ui/8bit/blocks//login-form"
-import { ChartExample } from "@/components/ui/8bit/blocks/chart"
-import { Button } from "@/components/ui/8bit/button"
+import { LoginForm } from "@/components/ui/vector/blocks//login-form"
+import { ChartExample } from "@/components/ui/vector/blocks/chart"
+import { Button } from "@/components/ui/vector/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/8bit/card"
-import { Input } from "@/components/ui/8bit/input"
-import { Label } from "@/components/ui/8bit/label"
+} from "@/components/ui/vector/card"
+import { Input } from "@/components/ui/vector/input"
+import { Label } from "@/components/ui/vector/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/8bit/select"
-import { Textarea } from "@/components/ui/8bit/textarea"
+} from "@/components/ui/vector/select"
+import { Text } from "@/components/ui/vector/text"
+import { Textarea } from "@/components/ui/vector/textarea"
 import { CalendarExample } from "@/components/examples/calendar"
 import { CommandExample } from "@/components/examples/command"
 
 export default function Home() {
   return (
     <div className="flex flex-col p-4 gap-5 pt-10">
-      <h1 className={`${pressStart.className} md:text-2xl font-bold`}>
-        Build your retro component library
-      </h1>
-      <p className="max-w-2xl text-sm md:text-base">
+      <Text variant="jumbo">
+        Based on the most fucked up minds of the galaxy
+      </Text>
+      <Text variant="h1">Build your retro component library</Text>
+      <Text variant="p">
         A set of 8-bit styled components and a code distribution platform. Works
         with your favorite frameworks. Open Source. Open Code.
-      </p>
+      </Text>
+
       <Link href="/docs/components/alert" className="w-fit">
-        <Button size="sm" className="w-fit">
-          Get Started
-        </Button>
+        <Button className="w-fit">Get Started</Button>
       </Link>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-10">

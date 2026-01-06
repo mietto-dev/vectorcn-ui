@@ -8,7 +8,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/8bit/chart"
+} from "@/components/ui/vector/chart"
 
 const pressStart = Press_Start_2P({
   weight: ["400"],

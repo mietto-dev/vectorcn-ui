@@ -6,7 +6,6 @@ import { Menu } from "lucide-react"
 
 import { navItems } from "@/config/nav-items"
 
-import { Badge } from "./ui/8bit/badge"
 import { Button } from "./ui/button"
 import {
   Drawer,
@@ -15,6 +14,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "./ui/drawer"
+import { Badge } from "./ui/vector/badge"
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false)

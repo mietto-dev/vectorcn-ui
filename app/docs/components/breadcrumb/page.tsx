@@ -4,6 +4,7 @@ import Link from "next/link"
 
 import { breadcrumbMetaData } from "@/lib/metadata"
 import { cn } from "@/lib/utils"
+import { Separator } from "@/components/ui/separator"
 import {
   Breadcrumb,
   BreadcrumbEllipsis,
@@ -12,14 +13,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/8bit/breadcrumb"
+} from "@/components/ui/vector/breadcrumb"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/8bit/dropdown-menu"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/dropdown-menu"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -191,7 +191,7 @@ export default function BreadcrumbPageNext() {
 	BreadcrumbList,
 	BreadcrumbPage,
 	BreadcrumbSeparator,
-} from "@/components/ui/8bit/breadcrumb";`}</CodeSnippet>
+} from "@/components/ui/vector/breadcrumb";`}</CodeSnippet>
       <CodeSnippet>{`<Breadcrumb>
   <BreadcrumbList>
     <BreadcrumbItem>

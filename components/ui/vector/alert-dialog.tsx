@@ -88,18 +88,13 @@ function AlertDialogContent({
       <>
         <ShadcnAlertDialogContent
           className={cn(
-            "rounded-none border-y-6 border-foreground dark:border-ring",
+            "rounded-none border border-foreground dark:border-ring",
             font !== "normal" && pressStart.className,
             className
           )}
           {...props}
         >
           {children}
-
-          <div
-            className="absolute inset-0 border-x-6 -mx-1.5 border-foreground dark:border-ring pointer-events-none"
-            aria-hidden="true"
-          />
         </ShadcnAlertDialogContent>
       </>
     </AlertDialogPortal>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 import { alertDialogMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -11,9 +12,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/8bit/alert-dialog"
-import { Button } from "@/components/ui/8bit/button"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/alert-dialog"
+import { Button } from "@/components/ui/vector/button"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -100,7 +100,7 @@ export default function AlertDialogPage() {
     AlertDialogHeader,
     AlertDialogTitle,
     AlertDialogTrigger,
-  } from "@/components/ui/8bit/alert-dialog"`}
+  } from "@/components/ui/vector/alert-dialog"`}
       </CodeSnippet>
 
       <CodeSnippet>

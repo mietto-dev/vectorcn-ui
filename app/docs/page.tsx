@@ -1,7 +1,11 @@
 import { Metadata } from "next"
 
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/8bit/alert"
 import { Separator } from "@/components/ui/separator"
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/vector/alert"
 
 import CodeSnippet from "./components/code-snippet"
 
@@ -57,7 +61,7 @@ export default function Page() {
           The command above will add the Button component to your project. You
           can then import it like this:
         </p>
-        <CodeSnippet>{`import { Button } from "@/components/ui/8bit/button"
+        <CodeSnippet>{`import { Button } from "@/components/ui/vector/button"
  
 export default function Home() {
   return (

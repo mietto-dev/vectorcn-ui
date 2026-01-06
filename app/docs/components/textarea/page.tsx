@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { textareaMetaData } from "@/lib/metadata"
-import { Textarea } from "@/components/ui/8bit/textarea"
 import { Separator } from "@/components/ui/separator"
+import { Textarea } from "@/components/ui/vector/textarea"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -60,7 +60,7 @@ export default function TextareaPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Textarea } from "@/components/ui/8bit/textarea"`}</CodeSnippet>
+      <CodeSnippet>{`import { Textarea } from "@/components/ui/vector/textarea"`}</CodeSnippet>
 
       <CodeSnippet>{`<Textarea />`}</CodeSnippet>
     </div>

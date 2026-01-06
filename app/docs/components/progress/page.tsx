@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { progressMetaData } from "@/lib/metadata"
-import { Progress } from "@/components/ui/8bit/progress"
 import { Separator } from "@/components/ui/separator"
+import { Progress } from "@/components/ui/vector/progress"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -61,7 +61,7 @@ export default function ProgressPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Progress } from "@/components/ui/8bit/progress"`}</CodeSnippet>
+      <CodeSnippet>{`import { Progress } from "@/components/ui/vector/progress"`}</CodeSnippet>
 
       <CodeSnippet>{`<Progress value={70} />`}</CodeSnippet>
 

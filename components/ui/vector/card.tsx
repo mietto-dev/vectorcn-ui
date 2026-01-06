@@ -41,7 +41,7 @@ function Card({ ...props }: BitCardProps) {
   return (
     <div
       className={cn(
-        "relative border-y-6 border-foreground dark:border-ring !p-0",
+        "relative border border-foreground dark:border-ring dark:drop-shadow-lg dark:drop-shadow-ring/10 !p-0",
         className
       )}
     >
@@ -52,11 +52,6 @@ function Card({ ...props }: BitCardProps) {
           font !== "normal" && pressStart.className,
           className
         )}
-      />
-
-      <div
-        className="absolute inset-0 border-x-6 -mx-1.5 border-foreground dark:border-ring pointer-events-none"
-        aria-hidden="true"
       />
     </div>
   )

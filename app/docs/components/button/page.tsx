@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { buttonMetaData } from "@/lib/metadata"
-import { Button } from "@/components/ui/8bit/button"
 import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/vector/button"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -60,7 +60,7 @@ export default function ButtonPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Button } from "@/components/ui/8bit/button"`}</CodeSnippet>
+      <CodeSnippet>{`import { Button } from "@/components/ui/vector/button"`}</CodeSnippet>
 
       <CodeSnippet>{`<Button variant="outline">Button</Button>`}</CodeSnippet>
     </div>

@@ -11,9 +11,9 @@
       "registryDependencies": ["button"],
       "files": [
         {
-          "path": "components/ui/8bit/button.tsx",
+          "path": "components/ui/vector/button.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/button.tsx"
+          "target": "components/ui/vector/button.tsx"
         }
       ]
     },
@@ -25,9 +25,9 @@
       "registryDependencies": ["input"],
       "files": [
         {
-          "path": "components/ui/8bit/input.tsx",
+          "path": "components/ui/vector/input.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/input.tsx"
+          "target": "components/ui/vector/input.tsx"
         }
       ]
     },
@@ -39,9 +39,9 @@
       "registryDependencies": ["input-otp"],
       "files": [
         {
-          "path": "components/ui/8bit/input-otp.tsx",
+          "path": "components/ui/vector/input-otp.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/input-otp.tsx"
+          "target": "components/ui/vector/input-otp.tsx"
         }
       ]
     },
@@ -53,9 +53,9 @@
       "registryDependencies": ["badge"],
       "files": [
         {
-          "path": "components/ui/8bit/badge.tsx",
+          "path": "components/ui/vector/badge.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/badge.tsx"
+          "target": "components/ui/vector/badge.tsx"
         }
       ]
     },
@@ -67,9 +67,9 @@
       "registryDependencies": ["textarea"],
       "files": [
         {
-          "path": "components/ui/8bit/textarea.tsx",
+          "path": "components/ui/vector/textarea.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/textarea.tsx"
+          "target": "components/ui/vector/textarea.tsx"
         }
       ]
     },
@@ -81,9 +81,9 @@
       "registryDependencies": ["calendar"],
       "files": [
         {
-          "path": "components/ui/8bit/calendar.tsx",
+          "path": "components/ui/vector/calendar.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/calendar.tsx"
+          "target": "components/ui/vector/calendar.tsx"
         }
       ]
     },
@@ -95,9 +95,9 @@
       "registryDependencies": ["card"],
       "files": [
         {
-          "path": "components/ui/8bit/card.tsx",
+          "path": "components/ui/vector/card.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/card.tsx"
+          "target": "components/ui/vector/card.tsx"
         }
       ]
     },
@@ -109,9 +109,9 @@
       "registryDependencies": ["carousel"],
       "files": [
         {
-          "path": "components/ui/8bit/carousel.tsx",
+          "path": "components/ui/vector/carousel.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/carousel.tsx"
+          "target": "components/ui/vector/carousel.tsx"
         }
       ]
     },
@@ -123,9 +123,9 @@
       "registryDependencies": ["dialog"],
       "files": [
         {
-          "path": "components/ui/8bit/dialog.tsx",
+          "path": "components/ui/vector/dialog.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/dialog.tsx"
+          "target": "components/ui/vector/dialog.tsx"
         }
       ]
     },
@@ -137,9 +137,9 @@
       "registryDependencies": ["dropdown-menu"],
       "files": [
         {
-          "path": "components/ui/8bit/dropdown-menu.tsx",
+          "path": "components/ui/vector/dropdown-menu.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/dropdown-menu.tsx"
+          "target": "components/ui/vector/dropdown-menu.tsx"
         }
       ]
     },
@@ -151,9 +151,9 @@
       "registryDependencies": ["hover-card"],
       "files": [
         {
-          "path": "components/ui/8bit/hover-card.tsx",
+          "path": "components/ui/vector/hover-card.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/hover-card.tsx"
+          "target": "components/ui/vector/hover-card.tsx"
         }
       ]
     },
@@ -165,9 +165,9 @@
       "registryDependencies": ["popover"],
       "files": [
         {
-          "path": "components/ui/8bit/popover.tsx",
+          "path": "components/ui/vector/popover.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/popover.tsx"
+          "target": "components/ui/vector/popover.tsx"
         }
       ]
     },
@@ -179,9 +179,9 @@
       "registryDependencies": [],
       "files": [
         {
-          "path": "components/ui/8bit/resizable.tsx",
+          "path": "components/ui/vector/resizable.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/resizable.tsx"
+          "target": "components/ui/vector/resizable.tsx"
         }
       ]
     },
@@ -193,9 +193,9 @@
       "registryDependencies": ["select"],
       "files": [
         {
-          "path": "components/ui/8bit/select.tsx",
+          "path": "components/ui/vector/select.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/select.tsx"
+          "target": "components/ui/vector/select.tsx"
         }
       ]
     },
@@ -207,9 +207,9 @@
       "registryDependencies": ["sheet"],
       "files": [
         {
-          "path": "components/ui/8bit/sheet.tsx",
+          "path": "components/ui/vector/sheet.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/sheet.tsx"
+          "target": "components/ui/vector/sheet.tsx"
         }
       ]
     },
@@ -221,9 +221,9 @@
       "registryDependencies": ["label"],
       "files": [
         {
-          "path": "components/ui/8bit/label.tsx",
+          "path": "components/ui/vector/label.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/label.tsx"
+          "target": "components/ui/vector/label.tsx"
         }
       ]
     },
@@ -235,9 +235,9 @@
       "registryDependencies": ["checkbox"],
       "files": [
         {
-          "path": "components/ui/8bit/checkbox.tsx",
+          "path": "components/ui/vector/checkbox.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/checkbox.tsx"
+          "target": "components/ui/vector/checkbox.tsx"
         }
       ]
     },
@@ -249,9 +249,9 @@
       "registryDependencies": ["switch"],
       "files": [
         {
-          "path": "components/ui/8bit/switch.tsx",
+          "path": "components/ui/vector/switch.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/switch.tsx"
+          "target": "components/ui/vector/switch.tsx"
         }
       ]
     },
@@ -263,9 +263,9 @@
       "registryDependencies": ["alert"],
       "files": [
         {
-          "path": "components/ui/8bit/alert.tsx",
+          "path": "components/ui/vector/alert.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/alert.tsx"
+          "target": "components/ui/vector/alert.tsx"
         }
       ]
     },
@@ -277,9 +277,9 @@
       "registryDependencies": ["alert-dialog"],
       "files": [
         {
-          "path": "components/ui/8bit/alert-dialog.tsx",
+          "path": "components/ui/vector/alert-dialog.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/alert-dialog.tsx"
+          "target": "components/ui/vector/alert-dialog.tsx"
         }
       ]
     },
@@ -291,9 +291,9 @@
       "registryDependencies": ["tooltip"],
       "files": [
         {
-          "path": "components/ui/8bit/tooltip.tsx",
+          "path": "components/ui/vector/tooltip.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/tooltip.tsx"
+          "target": "components/ui/vector/tooltip.tsx"
         }
       ]
     },
@@ -305,9 +305,9 @@
       "registryDependencies": ["tooltip"],
       "files": [
         {
-          "path": "components/ui/8bit/tooltip.tsx",
+          "path": "components/ui/vector/tooltip.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/tooltip.tsx"
+          "target": "components/ui/vector/tooltip.tsx"
         }
       ]
     },
@@ -319,9 +319,9 @@
       "registryDependencies": ["avatar"],
       "files": [
         {
-          "path": "components/ui/8bit/avatar.tsx",
+          "path": "components/ui/vector/avatar.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/avatar.tsx"
+          "target": "components/ui/vector/avatar.tsx"
         }
       ]
     },
@@ -333,9 +333,9 @@
       "registryDependencies": ["skeleton"],
       "files": [
         {
-          "path": "components/ui/8bit/skeleton.tsx",
+          "path": "components/ui/vector/skeleton.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/skeleton.tsx"
+          "target": "components/ui/vector/skeleton.tsx"
         }
       ]
     },
@@ -347,9 +347,9 @@
       "registryDependencies": ["breadcrumb"],
       "files": [
         {
-          "path": "components/ui/8bit/breadcrumb.tsx",
+          "path": "components/ui/vector/breadcrumb.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/breadcrumb.tsx"
+          "target": "components/ui/vector/breadcrumb.tsx"
         }
       ]
     },
@@ -361,9 +361,9 @@
       "registryDependencies": ["collapsible"],
       "files": [
         {
-          "path": "components/ui/8bit/collapsible.tsx",
+          "path": "components/ui/vector/collapsible.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/collapsible.tsx"
+          "target": "components/ui/vector/collapsible.tsx"
         }
       ]
     },
@@ -375,9 +375,9 @@
       "registryDependencies": [],
       "files": [
         {
-          "path": "components/ui/8bit/progress.tsx",
+          "path": "components/ui/vector/progress.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/progress.tsx"
+          "target": "components/ui/vector/progress.tsx"
         }
       ]
     },
@@ -389,9 +389,9 @@
       "registryDependencies": ["toggle"],
       "files": [
         {
-          "path": "components/ui/8bit/toggle.tsx",
+          "path": "components/ui/vector/toggle.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/toggle.tsx"
+          "target": "components/ui/vector/toggle.tsx"
         }
       ]
     },
@@ -403,9 +403,9 @@
       "registryDependencies": ["table"],
       "files": [
         {
-          "path": "components/ui/8bit/table.tsx",
+          "path": "components/ui/vector/table.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/table.tsx"
+          "target": "components/ui/vector/table.tsx"
         }
       ]
     },
@@ -417,9 +417,9 @@
       "registryDependencies": ["tabs"],
       "files": [
         {
-          "path": "components/ui/8bit/tabs.tsx",
+          "path": "components/ui/vector/tabs.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/tabs.tsx"
+          "target": "components/ui/vector/tabs.tsx"
         }
       ]
     },
@@ -431,14 +431,14 @@
       "registryDependencies": ["command", "popover", "button"],
       "files": [
         {
-          "path": "components/ui/8bit/button.tsx",
+          "path": "components/ui/vector/button.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/button.tsx"
+          "target": "components/ui/vector/button.tsx"
         },
         {
-          "path": "components/ui/8bit/popover.tsx",
+          "path": "components/ui/vector/popover.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/popover.tsx"
+          "target": "components/ui/vector/popover.tsx"
         }
       ]
     },
@@ -450,9 +450,9 @@
       "registryDependencies": ["command"],
       "files": [
         {
-          "path": "components/ui/8bit/command.tsx",
+          "path": "components/ui/vector/command.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/command.tsx"
+          "target": "components/ui/vector/command.tsx"
         }
       ]
     },
@@ -464,9 +464,9 @@
       "registryDependencies": ["radio-group"],
       "files": [
         {
-          "path": "components/ui/8bit/radio-group.tsx",
+          "path": "components/ui/vector/radio-group.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/radio-group.tsx"
+          "target": "components/ui/vector/radio-group.tsx"
         }
       ]
     },
@@ -478,9 +478,9 @@
       "registryDependencies": ["pagination"],
       "files": [
         {
-          "path": "components/ui/8bit/pagination.tsx",
+          "path": "components/ui/vector/pagination.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/pagination.tsx"
+          "target": "components/ui/vector/pagination.tsx"
         }
       ]
     },
@@ -492,29 +492,29 @@
       "registryDependencies": ["button", "card", "input", "label"],
       "files": [
         {
-          "path": "components/ui/8bit/blocks/login-form.tsx",
+          "path": "components/ui/vector/blocks/login-form.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/blocks/login-form.tsx"
+          "target": "components/ui/vector/blocks/login-form.tsx"
         },
         {
-          "path": "components/ui/8bit/button.tsx",
+          "path": "components/ui/vector/button.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/button.tsx"
+          "target": "components/ui/vector/button.tsx"
         },
         {
-          "path": "components/ui/8bit/card.tsx",
+          "path": "components/ui/vector/card.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/card.tsx"
+          "target": "components/ui/vector/card.tsx"
         },
         {
-          "path": "components/ui/8bit/input.tsx",
+          "path": "components/ui/vector/input.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/input.tsx"
+          "target": "components/ui/vector/input.tsx"
         },
         {
-          "path": "components/ui/8bit/label.tsx",
+          "path": "components/ui/vector/label.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/label.tsx"
+          "target": "components/ui/vector/label.tsx"
         }
       ]
     },
@@ -531,29 +531,29 @@
           "target": "app/login/page.tsx"
         },
         {
-          "path": "components/ui/8bit/blocks/login-form.tsx",
+          "path": "components/ui/vector/blocks/login-form.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/blocks/login-form.tsx"
+          "target": "components/ui/vector/blocks/login-form.tsx"
         },
         {
-          "path": "components/ui/8bit/button.tsx",
+          "path": "components/ui/vector/button.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/button.tsx"
+          "target": "components/ui/vector/button.tsx"
         },
         {
-          "path": "components/ui/8bit/card.tsx",
+          "path": "components/ui/vector/card.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/card.tsx"
+          "target": "components/ui/vector/card.tsx"
         },
         {
-          "path": "components/ui/8bit/input.tsx",
+          "path": "components/ui/vector/input.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/input.tsx"
+          "target": "components/ui/vector/input.tsx"
         },
         {
-          "path": "components/ui/8bit/label.tsx",
+          "path": "components/ui/vector/label.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/label.tsx"
+          "target": "components/ui/vector/label.tsx"
         }
       ]
     },
@@ -565,14 +565,14 @@
       "registryDependencies": [],
       "files": [
         {
-          "path": "components/ui/8bit/blocks/chart.tsx",
+          "path": "components/ui/vector/blocks/chart.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/blocks/chart.tsx"
+          "target": "components/ui/vector/blocks/chart.tsx"
         },
         {
-          "path": "components/ui/8bit/chart.tsx",
+          "path": "components/ui/vector/chart.tsx",
           "type": "registry:component",
-          "target": "components/ui/8bit/chart.tsx"
+          "target": "components/ui/vector/chart.tsx"
         }
       ]
     }

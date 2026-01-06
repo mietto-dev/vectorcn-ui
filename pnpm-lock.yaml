@@ -124,8 +124,8 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1
       '@ianvs/prettier-plugin-sort-imports':
-        specifier: github:ianvs/prettier-plugin-sort-imports
-        version: https://codeload.github.com/ianvs/prettier-plugin-sort-imports/tar.gz/7eae8e5708b50311242b5fb9fe2963b9c07f3610(prettier@3.5.3)
+        specifier: ^4.7.0
+        version: 4.7.0(prettier@3.5.3)
       '@tailwindcss/postcss':
         specifier: ^4.1.5
         version: 4.1.5
@@ -382,14 +382,22 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@ianvs/prettier-plugin-sort-imports@https://codeload.github.com/ianvs/prettier-plugin-sort-imports/tar.gz/7eae8e5708b50311242b5fb9fe2963b9c07f3610':
-    resolution: {tarball: https://codeload.github.com/ianvs/prettier-plugin-sort-imports/tar.gz/7eae8e5708b50311242b5fb9fe2963b9c07f3610}
-    version: 4.4.1
+  '@ianvs/prettier-plugin-sort-imports@4.7.0':
+    resolution: {integrity: sha512-soa2bPUJAFruLL4z/CnMfSEKGznm5ebz29fIa9PxYtu8HHyLKNE1NXAs6dylfw1jn/ilEIfO2oLLN6uAafb7DA==}
     peerDependencies:
+      '@prettier/plugin-oxc': ^0.0.4
       '@vue/compiler-sfc': 2.7.x || 3.x
-      prettier: 2 || 3
+      content-tag: ^4.0.0
+      prettier: 2 || 3 || ^4.0.0-0
+      prettier-plugin-ember-template-tag: ^2.1.0
     peerDependenciesMeta:
+      '@prettier/plugin-oxc':
+        optional: true
       '@vue/compiler-sfc':
+        optional: true
+      content-tag:
+        optional: true
+      prettier-plugin-ember-template-tag:
         optional: true
 
   '@img/sharp-darwin-arm64@0.34.1':
@@ -3776,7 +3784,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@ianvs/prettier-plugin-sort-imports@https://codeload.github.com/ianvs/prettier-plugin-sort-imports/tar.gz/7eae8e5708b50311242b5fb9fe2963b9c07f3610(prettier@3.5.3)':
+  '@ianvs/prettier-plugin-sort-imports@4.7.0(prettier@3.5.3)':
     dependencies:
       '@babel/generator': 7.27.1
       '@babel/parser': 7.27.1

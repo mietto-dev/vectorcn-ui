@@ -1,8 +1,12 @@
 import { Metadata } from "next"
 
 import { alertMetaData } from "@/lib/metadata"
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/8bit/alert"
 import { Separator } from "@/components/ui/separator"
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/vector/alert"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -65,7 +69,7 @@ export default function AlertPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Alert, AlertDescription, AlertTitle } from "@/components/ui/8bit/alert"`}</CodeSnippet>
+      <CodeSnippet>{`import { Alert, AlertDescription, AlertTitle } from "@/components/ui/vector/alert"`}</CodeSnippet>
 
       <CodeSnippet>{`<Alert>
   <AlertTitle>Heads up!</AlertTitle>

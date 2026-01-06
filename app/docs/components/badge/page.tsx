@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 import { badgeMetaData } from "@/lib/metadata"
-import { Badge } from "@/components/ui/8bit/badge"
 import { Separator } from "@/components/ui/separator"
+import { Badge } from "@/components/ui/vector/badge"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -59,7 +59,7 @@ export default function BadgePage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Badge } from "@/components/ui/8bit/badge"`}</CodeSnippet>
+      <CodeSnippet>{`import { Badge } from "@/components/ui/vector/badge"`}</CodeSnippet>
 
       <CodeSnippet>{`<Badge>Badge</Badge>`}</CodeSnippet>
     </div>

@@ -2,7 +2,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/8bit/resizable"
+} from "@/components/ui/vector/resizable"
 
 export function ResizableDemo() {
   return (

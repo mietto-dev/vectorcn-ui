@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 
 import { tableMetaData } from "@/lib/metadata"
+import { Separator } from "@/components/ui/separator"
 import {
   Table,
   TableBody,
@@ -9,8 +10,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/8bit/table"
-import { Separator } from "@/components/ui/separator"
+} from "@/components/ui/vector/table"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -120,7 +120,7 @@ const TablePage = () => {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/8bit/table"`}</CodeSnippet>
+} from "@/components/ui/vector/table"`}</CodeSnippet>
 
       <CodeSnippet>{`<Table className="w-60 md:w-auto">
   <TableCaption className="text-xs md:text-sm">

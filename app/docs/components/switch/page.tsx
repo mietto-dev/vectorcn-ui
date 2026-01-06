@@ -1,9 +1,9 @@
 import { Metadata } from "next"
 
 import { switchMetaData } from "@/lib/metadata"
-import { Label } from "@/components/ui/8bit/label"
-import { Switch } from "@/components/ui/8bit/switch"
 import { Separator } from "@/components/ui/separator"
+import { Label } from "@/components/ui/vector/label"
+import { Switch } from "@/components/ui/vector/switch"
 
 import CodeSnippet from "../code-snippet"
 import CopyCommandButton from "../copy-command-button"
@@ -62,7 +62,7 @@ export default function SwitchPage() {
 
       <Separator />
 
-      <CodeSnippet>{`import { Switch } from "@/components/ui/8bit/switch"`}</CodeSnippet>
+      <CodeSnippet>{`import { Switch } from "@/components/ui/vector/switch"`}</CodeSnippet>
 
       <CodeSnippet>{`<Switch />`}</CodeSnippet>
     </div>
