@@ -11,9 +11,10 @@ export const buttonVariants = cva("", {
     },
     variant: {
       default:
-        "bg-transparent hover:bg-transparent border-2 border-success hover:shadow-md hover:shadow-success text-success hover:text-shadow-md hover:text-shadow-success cursor-pointer",
+        "border-2  bg-success/5 border-success text-success tracking-wider cursor-pointer hover:bg-success/0 hover:text-shadow-lg hover:text-shadow-success",
       destructive: "bg-foreground",
-      outline: "bg-foreground",
+      outline:
+        "bg-transparent hover:bg-transparent border-2 border-success hover:shadow-md hover:shadow-success text-success hover:text-shadow-md hover:text-shadow-success cursor-pointer",
       secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
       ghost: "hover:bg-accent hover:text-accent-foreground",
       link: "text-primary underline-offset-4 hover:underline",

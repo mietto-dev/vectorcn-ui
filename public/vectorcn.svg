@@ -1,0 +1,96 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-400 -350 800 900"
+  width="700"
+  height="600"
+>
+
+  <defs>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur
+        stdDeviation="36"
+        result="blur"
+      />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Group everything so glow is consistent -->
+  <g
+    fill="none"
+    stroke="#00b6ff"
+    stroke-width="64"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+    filter="url(#glow)"
+  >
+    <!-- Outer main shape -->
+    <polyline points="
+    -400,-250
+     0,450
+     400,-250
+  " />
+
+    <!-- Upper inner edges -->
+    <line
+      x1="-400"
+      y1="-250"
+      x2="0"
+      y2="-50"
+    />
+    <line
+      x1="400"
+      y1="-250"
+      x2="0"
+      y2="-50"
+    />
+
+    <!-- Left rays -->
+    <!-- <line
+      x1="0"
+      y1="-50"
+      x2="-300"
+      y2="-100"
+    /> -->
+
+    <line
+      x1="0"
+      y1="-50"
+      x2="-200"
+      y2="100"
+    />
+
+    <line
+      x1="0"
+      y1="-50"
+      x2="-82"
+      y2="302"
+    />
+
+    <!-- Right rays -->
+    <!-- <line
+      x1="0"
+      y1="-50"
+      x2="300"
+      y2="-100"
+    /> -->
+
+    <line
+      x1="0"
+      y1="-50"
+      x2="200"
+      y2="100"
+    />
+
+    <line
+      x1="0"
+      y1="-50"
+      x2="82"
+      y2="302"
+    />
+  </g>
+</svg>

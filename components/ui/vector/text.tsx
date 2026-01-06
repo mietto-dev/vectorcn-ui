@@ -8,10 +8,10 @@ import { cn } from "@/lib/utils"
 const textVariants = cva("text-foreground", {
   variants: {
     variant: {
-      h1: `${vectorBattle.className} scroll-m-20 text-3xl lg:text-4xl md:text-2xl font-light text-accent-foreground text-shadow-accent-foreground-glow text-shadow-xl tracking-widest uppercase`,
-      h2: `${vectorBattle.className} scroll-m-20 pb-2 text-3xl font-bold tracking-tight uppercase`,
-      h3: `${vectorBattle.className} scroll-m-20 text-2xl font-semibold tracking-tight uppercase`,
-      h4: `${vectorBattle.className} scroll-m-20 text-xl font-semibold tracking-tight uppercase`,
+      h1: `${vectorBattle.className} scroll-m-20 text-3xl lg:text-4xl md:text-2xl font-bold text-accent-foreground text-shadow-accent-foreground text-shadow-xl tracking-widest uppercase`,
+      h2: `${vectorBattle.className} scroll-m-20 pb-2 text-3xl font-bold text-accent-foreground text-shadow-accent-foreground text-shadow-lg tracking-tight uppercase`,
+      h3: `${vectorBattle.className} scroll-m-20 text-md font-semibold text-accent-foreground text-shadow-accent-foreground text-shadow-lg tracking-[3px] uppercase`,
+      h4: `${vectorBattle.className} scroll-m-20 text-md font-semibold text-shadow-accent-foreground text-shadow-md tracking-[3px] uppercase`,
       p: `${hershey.className} max-w-2xl text-sm md:text-base uppercase tracking-[3px] leading-7 [&:not(:first-child)]:mt-6 text-shadow-md`,
       lead: `${hershey.className} text-xl text-muted-foreground`,
       large: `${hershey.className} text-lg font-semibold`,
