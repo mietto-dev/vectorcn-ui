@@ -1,21 +1,21 @@
-## vectorcn/ui
+# shadcn/ui monorepo template
 
-Accessible components based on ancient vector display tech.
-You can copy and paste'em into your apps.
+This is a Next.js monorepo template with shadcn/ui.
 
-_Free. Open Source. Work in progess._
+## Adding components
 
-![alt text](/public/shots/typo.png)
-![alt text](/public/shots/calendar.png)
+To add components to your app, run the following command at the root of your `web` app:
 
-## Contributing
+```bash
+pnpm dlx shadcn@latest add button -c apps/web
+```
 
-Please read the [contributing guide](/contributing.md).
+This will place the ui components in the `packages/ui/src/components` directory.
 
-## License
+## Using components
 
-Licensed under the [MIT license](/license.md).
+To use the components in your app, import them from the `ui` package.
 
-## Credits
-
-Forked from the amazing [8bitcn-ui](https://github.com/theorcdev/8bitcn-ui)
+```tsx
+import { Button } from "@workspace/ui/components/button";
+```

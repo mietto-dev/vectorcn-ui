@@ -1,280 +1,16 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "8bit",
-  "homepage": "https://8bitcn.com",
+  "name": "vectorcn",
+  "homepage": "https://vectorcn-ui.vercel.app",
   "items": [
     {
-      "name": "8bit-button",
+      "name": "vectorcn-alert-dialog",
       "type": "registry:component",
-      "title": "8-bit Button",
-      "description": "A simple 8-bit button component",
-      "registryDependencies": ["button"],
-      "files": [
-        {
-          "path": "components/ui/vector/button.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/button.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-input",
-      "type": "registry:component",
-      "title": "8-bit Input",
-      "description": "A simple 8-bit input component",
-      "registryDependencies": ["input"],
-      "files": [
-        {
-          "path": "components/ui/vector/input.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/input.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-input-otp",
-      "type": "registry:component",
-      "title": "8-bit Input-OTP",
-      "description": "A simple 8-bit input-otp component",
-      "registryDependencies": ["input-otp"],
-      "files": [
-        {
-          "path": "components/ui/vector/input-otp.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/input-otp.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-badge",
-      "type": "registry:component",
-      "title": "8-bit Badge",
-      "description": "A simple 8-bit badge component",
-      "registryDependencies": ["badge"],
-      "files": [
-        {
-          "path": "components/ui/vector/badge.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/badge.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-textarea",
-      "type": "registry:component",
-      "title": "8-bit Textarea",
-      "description": "A simple 8-bit textarea component",
-      "registryDependencies": ["textarea"],
-      "files": [
-        {
-          "path": "components/ui/vector/textarea.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/textarea.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-calendar",
-      "type": "registry:component",
-      "title": "8-bit Calendar",
-      "description": "A simple 8-bit calendar component",
-      "registryDependencies": ["calendar"],
-      "files": [
-        {
-          "path": "components/ui/vector/calendar.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/calendar.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-card",
-      "type": "registry:component",
-      "title": "8-bit Card",
-      "description": "A simple 8-bit card component",
-      "registryDependencies": ["card"],
-      "files": [
-        {
-          "path": "components/ui/vector/card.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/card.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-carousel",
-      "type": "registry:component",
-      "title": "8-bit Card",
-      "description": "A simple 8-bit carousel component",
-      "registryDependencies": ["carousel"],
-      "files": [
-        {
-          "path": "components/ui/vector/carousel.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/carousel.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-dialog",
-      "type": "registry:component",
-      "title": "8-bit Dialog",
-      "description": "A simple 8-bit dialog component",
-      "registryDependencies": ["dialog"],
-      "files": [
-        {
-          "path": "components/ui/vector/dialog.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/dialog.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-dropdown-menu",
-      "type": "registry:component",
-      "title": "8-bit Dropdown Menu",
-      "description": "A simple 8-bit dropdown-menu component",
-      "registryDependencies": ["dropdown-menu"],
-      "files": [
-        {
-          "path": "components/ui/vector/dropdown-menu.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/dropdown-menu.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-hover-card",
-      "type": "registry:component",
-      "title": "8-bit Hover Card",
-      "description": "A simple 8-bit hover card component",
-      "registryDependencies": ["hover-card"],
-      "files": [
-        {
-          "path": "components/ui/vector/hover-card.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/hover-card.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-popover",
-      "type": "registry:component",
-      "title": "8-bit Popover",
-      "description": "A simple 8-bit popover component",
-      "registryDependencies": ["popover"],
-      "files": [
-        {
-          "path": "components/ui/vector/popover.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/popover.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-resizable",
-      "type": "registry:component",
-      "title": "8-bit Resizable Panel",
-      "description": "Accessible resizable panel groups and layouts with keyboard support.",
-      "registryDependencies": [],
-      "files": [
-        {
-          "path": "components/ui/vector/resizable.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/resizable.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-select",
-      "type": "registry:component",
-      "title": "8-bit Select",
-      "description": "A simple 8-bit select component",
-      "registryDependencies": ["select"],
-      "files": [
-        {
-          "path": "components/ui/vector/select.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/select.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-sheet",
-      "type": "registry:component",
-      "title": "8-bit sheet",
-      "description": "A simple 8-bit sheet component",
-      "registryDependencies": ["sheet"],
-      "files": [
-        {
-          "path": "components/ui/vector/sheet.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/sheet.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-label",
-      "type": "registry:component",
-      "title": "8-bit Label",
-      "description": "A simple 8-bit label component",
-      "registryDependencies": ["label"],
-      "files": [
-        {
-          "path": "components/ui/vector/label.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/label.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-checkbox",
-      "type": "registry:component",
-      "title": "8-bit Checkbox",
-      "description": "A simple 8-bit checkbox component",
-      "registryDependencies": ["checkbox"],
-      "files": [
-        {
-          "path": "components/ui/vector/checkbox.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/checkbox.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-switch",
-      "type": "registry:component",
-      "title": "8-bit Switch",
-      "description": "A simple 8-bit switch component",
-      "registryDependencies": ["switch"],
-      "files": [
-        {
-          "path": "components/ui/vector/switch.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/switch.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-alert",
-      "type": "registry:component",
-      "title": "8-bit Alert",
-      "description": "A simple 8-bit switch component",
-      "registryDependencies": ["alert"],
-      "files": [
-        {
-          "path": "components/ui/vector/alert.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/alert.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-alert-dialog",
-      "type": "registry:component",
-      "title": "8-bit Alert Dialog",
-      "description": "A simple 8-bit Alert Dialog component",
-      "registryDependencies": ["alert-dialog"],
+      "title": "VectorCN Alert Dialog",
+      "description": "A CRT/vector-display styled alert-dialog component",
+      "registryDependencies": [
+        "alert-dialog"
+      ],
       "files": [
         {
           "path": "components/ui/vector/alert-dialog.tsx",
@@ -284,39 +20,13 @@
       ]
     },
     {
-      "name": "8bit-tooltip",
+      "name": "vectorcn-avatar",
       "type": "registry:component",
-      "title": "8-bit Tooltip",
-      "description": "A simple 8-bit tooltip component",
-      "registryDependencies": ["tooltip"],
-      "files": [
-        {
-          "path": "components/ui/vector/tooltip.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/tooltip.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-tooltip",
-      "type": "registry:component",
-      "title": "8-bit Tooltip",
-      "description": "A simple 8-bit tooltip component",
-      "registryDependencies": ["tooltip"],
-      "files": [
-        {
-          "path": "components/ui/vector/tooltip.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/tooltip.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-avatar",
-      "type": "registry:component",
-      "title": "8-bit Avatar",
-      "description": "A simple 8-bit avatar component",
-      "registryDependencies": ["avatar"],
+      "title": "VectorCN Avatar",
+      "description": "A CRT/vector-display styled avatar component",
+      "registryDependencies": [
+        "avatar"
+      ],
       "files": [
         {
           "path": "components/ui/vector/avatar.tsx",
@@ -326,25 +36,29 @@
       ]
     },
     {
-      "name": "8bit-skeleton",
+      "name": "vectorcn-badge",
       "type": "registry:component",
-      "title": "8-bit Skeleton",
-      "description": "A simple 8-bit skeleton component",
-      "registryDependencies": ["skeleton"],
+      "title": "VectorCN Badge",
+      "description": "A CRT/vector-display styled badge component",
+      "registryDependencies": [
+        "badge"
+      ],
       "files": [
         {
-          "path": "components/ui/vector/skeleton.tsx",
+          "path": "components/ui/vector/badge.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/skeleton.tsx"
+          "target": "components/ui/vector/badge.tsx"
         }
       ]
     },
     {
-      "name": "8bit-breadcrumb",
+      "name": "vectorcn-breadcrumb",
       "type": "registry:component",
-      "title": "8-bit Breadcrumb",
-      "description": "A simple 8-bit breadcrumb component",
-      "registryDependencies": ["breadcrumb"],
+      "title": "VectorCN Breadcrumb",
+      "description": "A CRT/vector-display styled breadcrumb component",
+      "registryDependencies": [
+        "breadcrumb"
+      ],
       "files": [
         {
           "path": "components/ui/vector/breadcrumb.tsx",
@@ -354,11 +68,109 @@
       ]
     },
     {
-      "name": "8bit-collapsible",
+      "name": "vectorcn-button",
       "type": "registry:component",
-      "title": "8-bit Collapsible",
-      "description": "A simple 8-bit collapsible component",
-      "registryDependencies": ["collapsible"],
+      "title": "VectorCN Button",
+      "description": "A CRT/vector-display styled button component",
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-calendar",
+      "type": "registry:component",
+      "title": "VectorCN Calendar",
+      "description": "A CRT/vector-display styled calendar component",
+      "registryDependencies": [
+        "calendar"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/calendar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/calendar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-card",
+      "type": "registry:component",
+      "title": "VectorCN Card",
+      "description": "A CRT/vector-display styled card component",
+      "registryDependencies": [
+        "card"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-carousel",
+      "type": "registry:component",
+      "title": "VectorCN Carousel",
+      "description": "A CRT/vector-display styled carousel component",
+      "registryDependencies": [
+        "carousel"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/carousel.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/carousel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-chart",
+      "type": "registry:component",
+      "title": "VectorCN Chart",
+      "description": "A CRT/vector-display styled chart component",
+      "registryDependencies": [
+        "chart"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/chart.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/chart.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-checkbox",
+      "type": "registry:component",
+      "title": "VectorCN Checkbox",
+      "description": "A CRT/vector-display styled checkbox component",
+      "registryDependencies": [
+        "checkbox"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/checkbox.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-collapsible",
+      "type": "registry:component",
+      "title": "VectorCN Collapsible",
+      "description": "A CRT/vector-display styled collapsible component",
+      "registryDependencies": [
+        "collapsible"
+      ],
       "files": [
         {
           "path": "components/ui/vector/collapsible.tsx",
@@ -368,86 +180,13 @@
       ]
     },
     {
-      "name": "8bit-progress",
+      "name": "vectorcn-command",
       "type": "registry:component",
-      "title": "8-bit Progress",
-      "description": "A simple 8-bit progress component",
-      "registryDependencies": [],
-      "files": [
-        {
-          "path": "components/ui/vector/progress.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/progress.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-toggle",
-      "type": "registry:component",
-      "title": "8-bit Toggle",
-      "description": "A simple 8-bit toggle component",
-      "registryDependencies": ["toggle"],
-      "files": [
-        {
-          "path": "components/ui/vector/toggle.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/toggle.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-table",
-      "type": "registry:component",
-      "title": "8-bit Table",
-      "description": "A simple 8-bit table component",
-      "registryDependencies": ["table"],
-      "files": [
-        {
-          "path": "components/ui/vector/table.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/table.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-tabs",
-      "type": "registry:component",
-      "title": "8-bit Tabs",
-      "description": "A simple 8-bit tabs component",
-      "registryDependencies": ["tabs"],
-      "files": [
-        {
-          "path": "components/ui/vector/tabs.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/tabs.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-combo-box",
-      "type": "registry:component",
-      "title": "8-bit Combo Box",
-      "description": "A simple 8-bit combo box component",
-      "registryDependencies": ["command", "popover", "button"],
-      "files": [
-        {
-          "path": "components/ui/vector/button.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/button.tsx"
-        },
-        {
-          "path": "components/ui/vector/popover.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/popover.tsx"
-        }
-      ]
-    },
-    {
-      "name": "8bit-command",
-      "type": "registry:component",
-      "title": "8-bit Command",
-      "description": "A simple 8-bit command component",
-      "registryDependencies": ["command"],
+      "title": "VectorCN Command",
+      "description": "A CRT/vector-display styled command component",
+      "registryDependencies": [
+        "command"
+      ],
       "files": [
         {
           "path": "components/ui/vector/command.tsx",
@@ -457,25 +196,93 @@
       ]
     },
     {
-      "name": "8bit-radio-group",
+      "name": "vectorcn-dialog",
       "type": "registry:component",
-      "title": "8-bit Radio Group",
-      "description": "A simple 8-bit radio group component",
-      "registryDependencies": ["radio-group"],
+      "title": "VectorCN Dialog",
+      "description": "A CRT/vector-display styled dialog component",
+      "registryDependencies": [
+        "dialog"
+      ],
       "files": [
         {
-          "path": "components/ui/vector/radio-group.tsx",
+          "path": "components/ui/vector/dialog.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/radio-group.tsx"
+          "target": "components/ui/vector/dialog.tsx"
         }
       ]
     },
     {
-      "name": "8bit-pagination",
+      "name": "vectorcn-dropdown-menu",
       "type": "registry:component",
-      "title": "8-bit Pagination",
-      "description": "A simple 8-bit pagination component",
-      "registryDependencies": ["pagination"],
+      "title": "VectorCN Dropdown Menu",
+      "description": "A CRT/vector-display styled dropdown-menu component",
+      "registryDependencies": [
+        "dropdown-menu"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/dropdown-menu.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-hover-card",
+      "type": "registry:component",
+      "title": "VectorCN Hover Card",
+      "description": "A CRT/vector-display styled hover-card component",
+      "registryDependencies": [
+        "hover-card"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/hover-card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/hover-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-input",
+      "type": "registry:component",
+      "title": "VectorCN Input",
+      "description": "A CRT/vector-display styled input component",
+      "registryDependencies": [
+        "input"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/input.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-label",
+      "type": "registry:component",
+      "title": "VectorCN Label",
+      "description": "A CRT/vector-display styled label component",
+      "registryDependencies": [
+        "label"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/label.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-pagination",
+      "type": "registry:component",
+      "title": "VectorCN Pagination",
+      "description": "A CRT/vector-display styled pagination component",
+      "registryDependencies": [
+        "pagination"
+      ],
       "files": [
         {
           "path": "components/ui/vector/pagination.tsx",
@@ -485,94 +292,226 @@
       ]
     },
     {
-      "name": "8bit-login-form",
+      "name": "vectorcn-popover",
       "type": "registry:component",
-      "title": "8-bit Login Form",
-      "description": "A simple 8-bit login form component",
-      "registryDependencies": ["button", "card", "input", "label"],
+      "title": "VectorCN Popover",
+      "description": "A CRT/vector-display styled popover component",
+      "registryDependencies": [
+        "popover"
+      ],
       "files": [
         {
-          "path": "components/ui/vector/blocks/login-form.tsx",
+          "path": "components/ui/vector/popover.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/blocks/login-form.tsx"
-        },
-        {
-          "path": "components/ui/vector/button.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/button.tsx"
-        },
-        {
-          "path": "components/ui/vector/card.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/card.tsx"
-        },
-        {
-          "path": "components/ui/vector/input.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/input.tsx"
-        },
-        {
-          "path": "components/ui/vector/label.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/label.tsx"
+          "target": "components/ui/vector/popover.tsx"
         }
       ]
     },
     {
-      "name": "8bit-login-page",
+      "name": "vectorcn-progress",
       "type": "registry:component",
-      "title": "8-bit Login Page",
-      "description": "A simple 8-bit login page component",
-      "registryDependencies": ["button", "card", "input", "label"],
+      "title": "VectorCN Progress",
+      "description": "A CRT/vector-display styled progress component",
+      "registryDependencies": [
+        "progress"
+      ],
       "files": [
         {
-          "path": "app/login/page.tsx",
+          "path": "components/ui/vector/progress.tsx",
           "type": "registry:component",
-          "target": "app/login/page.tsx"
-        },
-        {
-          "path": "components/ui/vector/blocks/login-form.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/blocks/login-form.tsx"
-        },
-        {
-          "path": "components/ui/vector/button.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/button.tsx"
-        },
-        {
-          "path": "components/ui/vector/card.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/card.tsx"
-        },
-        {
-          "path": "components/ui/vector/input.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/input.tsx"
-        },
-        {
-          "path": "components/ui/vector/label.tsx",
-          "type": "registry:component",
-          "target": "components/ui/vector/label.tsx"
+          "target": "components/ui/vector/progress.tsx"
         }
       ]
     },
     {
-      "name": "8bit-chart",
+      "name": "vectorcn-radio-group",
       "type": "registry:component",
-      "title": "8-bit Chart",
-      "description": "A simple 8-bit chart component",
-      "registryDependencies": [],
+      "title": "VectorCN Radio Group",
+      "description": "A CRT/vector-display styled radio-group component",
+      "registryDependencies": [
+        "radio-group"
+      ],
       "files": [
         {
-          "path": "components/ui/vector/blocks/chart.tsx",
+          "path": "components/ui/vector/radio-group.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/blocks/chart.tsx"
-        },
+          "target": "components/ui/vector/radio-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-resizable",
+      "type": "registry:component",
+      "title": "VectorCN Resizable",
+      "description": "A CRT/vector-display styled resizable component",
+      "registryDependencies": [
+        "resizable"
+      ],
+      "files": [
         {
-          "path": "components/ui/vector/chart.tsx",
+          "path": "components/ui/vector/resizable.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/chart.tsx"
+          "target": "components/ui/vector/resizable.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-select",
+      "type": "registry:component",
+      "title": "VectorCN Select",
+      "description": "A CRT/vector-display styled select component",
+      "registryDependencies": [
+        "select"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/select.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-separator",
+      "type": "registry:component",
+      "title": "VectorCN Separator",
+      "description": "A CRT/vector-display styled separator component",
+      "registryDependencies": [
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/separator.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/separator.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-sheet",
+      "type": "registry:component",
+      "title": "VectorCN Sheet",
+      "description": "A CRT/vector-display styled sheet component",
+      "registryDependencies": [
+        "sheet"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/sheet.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-skeleton",
+      "type": "registry:component",
+      "title": "VectorCN Skeleton",
+      "description": "A CRT/vector-display styled skeleton component",
+      "registryDependencies": [
+        "skeleton"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/skeleton.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/skeleton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-switch",
+      "type": "registry:component",
+      "title": "VectorCN Switch",
+      "description": "A CRT/vector-display styled switch component",
+      "registryDependencies": [
+        "switch"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/switch.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-table",
+      "type": "registry:component",
+      "title": "VectorCN Table",
+      "description": "A CRT/vector-display styled table component",
+      "registryDependencies": [
+        "table"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/table.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-tabs",
+      "type": "registry:component",
+      "title": "VectorCN Tabs",
+      "description": "A CRT/vector-display styled tabs component",
+      "registryDependencies": [
+        "tabs"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/tabs.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-textarea",
+      "type": "registry:component",
+      "title": "VectorCN Textarea",
+      "description": "A CRT/vector-display styled textarea component",
+      "registryDependencies": [
+        "textarea"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/textarea.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-toggle",
+      "type": "registry:component",
+      "title": "VectorCN Toggle",
+      "description": "A CRT/vector-display styled toggle component",
+      "registryDependencies": [
+        "toggle"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/toggle.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "vectorcn-tooltip",
+      "type": "registry:component",
+      "title": "VectorCN Tooltip",
+      "description": "A CRT/vector-display styled tooltip component",
+      "registryDependencies": [
+        "tooltip"
+      ],
+      "files": [
+        {
+          "path": "components/ui/vector/tooltip.tsx",
+          "type": "registry:component",
+          "target": "components/ui/vector/tooltip.tsx"
         }
       ]
     }
