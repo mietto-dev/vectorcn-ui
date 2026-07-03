@@ -25,7 +25,7 @@ export function SiteHeader() {
             <Link
               href={item.href}
               key={item.href}
-              className="text-foreground transition-colors hover:text-foreground/80"
+              className="text-foreground uppercase tracking-[3px] text-shadow-md transition-colors hover:text-foreground/80"
             >
               {item.label}
             </Link>

@@ -21,7 +21,7 @@ export function MobileNav() {
             <Link
               href={item.href}
               key={item.href}
-              className="block px-3 py-2 text-sm hover:bg-muted"
+              className="block px-3 py-2 text-sm uppercase tracking-[3px] text-shadow-md hover:bg-muted"
               onClick={() => setOpen(false)}
             >
               {item.label}

@@ -40,14 +40,14 @@ export function DocsSidebar() {
         <nav className="flex flex-col gap-1">
           {navItems.navMain.map((group) => (
             <div key={group.title} className="mb-4">
-              <h4 className="mb-2 font-hershey text-xs tracking-wider uppercase text-muted-foreground">
+              <h4 className="mb-2 text-xs tracking-wider uppercase text-muted-foreground">
                 {group.title}
               </h4>
               {group.items.map((item) => (
                 <Link
                   key={item.url}
                   href={item.url}
-                  className="flex items-center gap-1 rounded-none px-3 py-1.5 font-hershey text-sm tracking-wider uppercase text-foreground transition-colors hover:bg-muted"
+                  className="flex items-center gap-1 rounded-none px-3 py-1.5 text-sm tracking-wider uppercase text-foreground transition-colors hover:bg-muted"
                   onClick={() => setOpen(false)}
                 >
                   <ChevronRight className="size-3 shrink-0 text-muted-foreground" />

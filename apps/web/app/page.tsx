@@ -48,7 +48,7 @@ export default function Home() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Active Now</CardTitle>
+              <CardTitle>Active Now</CardTitle>
               <Activity className="size-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
@@ -61,9 +61,7 @@ export default function Home() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">
-                Subscriptions
-              </CardTitle>
+              <CardTitle>Subscriptions</CardTitle>
               <Users className="size-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
@@ -76,9 +74,7 @@ export default function Home() {
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">
-                Product Details
-              </CardTitle>
+              <CardTitle>Product Details</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid gap-6">
@@ -107,9 +103,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 md:col-span-2">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between">
-              <CardTitle className="text-sm font-medium">
-                Total visitors in the last 6 months
-              </CardTitle>
+              <CardTitle>Total visitors in the last 6 months</CardTitle>
               <Users className="size-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
