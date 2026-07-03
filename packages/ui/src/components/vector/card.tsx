@@ -43,7 +43,7 @@ function CardHeader({ ...props }: BitCardProps) {
 
   return (
     <BaseCardHeader
-      className={cn(className)}
+      className={cn("uppercase tracking-[3px] leading-7 text-shadow-md font-bold", className)}
       {...props}
     />
   )
@@ -54,7 +54,7 @@ function CardTitle({ ...props }: BitCardProps) {
 
   return (
     <BaseCardTitle
-      className={cn(className)}
+      className={cn("font-vector-battle font-bold text-accent-foreground text-xs", className)}
       {...props}
     />
   )
