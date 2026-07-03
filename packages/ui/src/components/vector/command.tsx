@@ -29,7 +29,7 @@ function Command({
     <div className={cn("relative !p-0", className)}>
       <BaseCommand
         className={cn(
-          "flex h-full !w-full flex-col overflow-hidden rounded-md bg-popover font-hershey uppercase tracking-wider text-popover-foreground",
+          "flex h-full !w-full flex-col overflow-hidden rounded-md bg-popover uppercase tracking-wider text-popover-foreground",
           className
         )}
         {...props}
@@ -129,7 +129,7 @@ function CommandList({
   return (
     <BaseCommandList
       className={cn(
-        "max-h-[320px] scroll-py-1 overflow-x-hidden overflow-y-auto font-hershey uppercase tracking-wider",
+        "max-h-[320px] scroll-py-1 overflow-x-hidden overflow-y-auto uppercase tracking-wider",
         className
       )}
       {...props}
@@ -150,7 +150,7 @@ function CommandGroup({
   return (
     <BaseCommandGroup
       className={cn(
-        "overflow-hidden p-1 font-hershey uppercase tracking-wider text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
+        "overflow-hidden p-1 uppercase tracking-wider text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",
         className
       )}
       {...props}
@@ -166,7 +166,7 @@ function CommandSeparator({
     <BaseCommandSeparator
       className={cn(
         "shrink-0 data-[orientation=horizontal]:h-0.5 data-[orientation=horizontal]:w-full data-[orientation=horizontal]:bg-[linear-gradient(90deg,var(--foreground)_75%,transparent_75%)] data-[orientation=horizontal]:bg-[length:16px_8px] data-[orientation=vertical]:h-full data-[orientation=vertical]:w-0.5 data-[orientation=vertical]:bg-[linear-gradient(0deg,var(--foreground)_75%,transparent_75%)] data-[orientation=vertical]:bg-[length:2px_16px] dark:data-[orientation=horizontal]:bg-[linear-gradient(90deg,var(--ring)_75%,transparent_75%)] dark:data-[orientation=vertical]:bg-[linear-gradient(0deg,var(--ring)_75%,transparent_75%)]",
-        "font-hershey uppercase tracking-wider",
+        "uppercase tracking-wider",
         className
       )}
       {...props}
@@ -197,7 +197,7 @@ function CommandShortcut({
 }: React.ComponentProps<"span">) {
   return (
     <BaseCommandShortcut
-      className={cn("font-hershey uppercase tracking-wider", className)}
+      className={cn("uppercase tracking-wider", className)}
       {...props}
     />
   )

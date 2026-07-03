@@ -5,7 +5,7 @@ function Label({ className, ...props }: React.ComponentProps<typeof BaseLabel>) 
   return (
     <BaseLabel
       className={cn(
-        "font-hershey tracking-wider uppercase",
+        "tracking-wider uppercase",
         className
       )}
       {...props}

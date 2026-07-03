@@ -3,14 +3,11 @@ import { cva, VariantProps } from "class-variance-authority"
 import { cn } from "@workspace/ui/lib/utils"
 import { Button as BaseButton } from "@workspace/ui/components/button"
 
-export const buttonVariants = cva("", {
+export const buttonVariants = cva("rounded-none uppercase tracking-[3px] text-shadow-md", {
   variants: {
-    font: {
-      normal: "font-hershey tracking-wider uppercase",
-    },
     variant: {
       default:
-        "cursor-pointer border-2 border-success bg-success/5 tracking-wider text-success hover:bg-success/0 hover:text-shadow-lg hover:text-shadow-success",
+        "cursor-pointer border-2 border-success bg-success/5 text-success hover:bg-success/0 hover:text-shadow-lg hover:text-shadow-success",
       destructive: "bg-foreground",
       outline:
         "cursor-pointer border-2 border-success bg-transparent text-success hover:bg-transparent hover:shadow-md hover:shadow-success hover:text-shadow-md hover:text-shadow-success",

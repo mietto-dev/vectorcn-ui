@@ -17,7 +17,7 @@ function Avatar({
   return (
     <BaseAvatar
       className={cn(
-        "relative flex size-10 shrink-0 overflow-hidden text-xs font-hershey",
+        "relative flex size-10 shrink-0 overflow-hidden text-xs",
         className
       )}
     >

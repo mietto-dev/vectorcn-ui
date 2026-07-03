@@ -13,7 +13,7 @@ function Skeleton({ children, ...props }: BitSkeletonProp) {
       <BaseSkeleton
         {...props}
         className={cn(
-          "rounded-none border-none bg-accent font-hershey",
+          "rounded-none border-none bg-accent",
           className
         )}
       >
