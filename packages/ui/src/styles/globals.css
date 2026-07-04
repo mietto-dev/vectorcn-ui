@@ -51,9 +51,8 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  --text-shadow-md: 0 0 8px;
-  --text-shadow-lg:
-    0px 1px 15px var(--text-shadow-color, #0000001a);
+  --text-shadow-md: 0 0 6px;
+  --text-shadow-lg: 0 0 12px;
   --text-shadow-xl:
     0px 0px 5px var(--text-shadow-color, #0000001a),
     0px 2px 7px var(--text-shadow-color, #0000001a),
@@ -148,9 +147,14 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply font-hershey bg-background text-foreground;
+    @apply bg-background font-hershey text-foreground;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-vector-battle;
   }
   button:not(:disabled),
