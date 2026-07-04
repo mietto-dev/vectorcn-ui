@@ -47,10 +47,10 @@ export function LoginForm({
                 </div>
                 <Input id="password" type="password" required />
               </div>
-              <Button type="submit" className="w-full">
+              <Button type="submit" className="w-full max-w-[300px] self-center">
                 Login
               </Button>
-              <Button variant="outline" className="w-full">
+              <Button className="w-full max-w-[300px] self-center">
                 Login with Google
               </Button>
             </div>
