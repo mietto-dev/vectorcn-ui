@@ -11,6 +11,15 @@ import {
   CardTitle as BaseCardTitle,
 } from "@workspace/ui/components/card"
 
+const cardTitleClasses =
+  "font-vector-battle text-xs font-bold uppercase tracking-[3px] leading-7 text-chart-3 [--text-shadow-color:var(--chart-3)] text-shadow-md"
+
+const cardHeaderIconClasses =
+  "[&>svg]:!text-chart-3 [&>svg]:!drop-shadow-[0_0_8px_var(--chart-3)] [&_[data-slot=card-action]_svg]:!text-chart-3 [&_[data-slot=card-action]_svg]:!drop-shadow-[0_0_8px_var(--chart-3)]"
+
+const groupedCardHeaderClasses =
+  "has-[>svg]:border-b has-[>svg]:border-foreground has-[>svg]:pb-2 has-[>svg]:dark:border-ring has-[>svg]:dark:drop-shadow-lg has-[>svg]:dark:drop-shadow-ring/10"
+
 export const cardVariants = cva("")
 export interface BitCardProps
   extends React.ComponentProps<"div">, VariantProps<typeof cardVariants> {
@@ -30,7 +39,7 @@ function Card({ ...props }: BitCardProps) {
       <BaseCard
         {...props}
         className={cn(
-          "!w-full rounded-none border-0",
+          "!w-full gap-0 rounded-none border-0 py-2 [--card-spacing:--spacing(4)]",
           className
         )}
       />
@@ -38,24 +47,25 @@ function Card({ ...props }: BitCardProps) {
   )
 }
 
-function CardHeader({ ...props }: BitCardProps) {
-  const { className } = props
-
+function CardHeader({ className, ...props }: BitCardProps) {
   return (
     <BaseCardHeader
-      className={cn("uppercase tracking-[3px] leading-7 text-shadow-md font-bold", className)}
       {...props}
+      className={cn(
+        "uppercase tracking-[3px] leading-7 text-shadow-md font-bold",
+        cardHeaderIconClasses,
+        groupedCardHeaderClasses,
+        className
+      )}
     />
   )
 }
 
-function CardTitle({ ...props }: BitCardProps) {
-  const { className } = props
-
+function CardTitle({ className, ...props }: BitCardProps) {
   return (
     <BaseCardTitle
-      className={cn("font-vector-battle font-bold text-accent-foreground text-xs", className)}
       {...props}
+      className={cn(cardTitleClasses, className)}
     />
   )
 }

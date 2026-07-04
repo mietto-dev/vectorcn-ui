@@ -52,8 +52,10 @@ export default function Home() {
               <Activity className="size-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">+573</div>
-              <p className="text-xs text-muted-foreground">
+              <div className="font-hershey-duplex text-6xl leading-none tracking-[-0.3rem] text-primary [--text-shadow-color:var(--primary)] text-shadow-lg">
+                5.732
+              </div>
+              <p className="text-base text-foreground text-shadow-md">
                 +201 since last hour
               </p>
             </CardContent>
@@ -65,8 +67,10 @@ export default function Home() {
               <Users className="size-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">+2350</div>
-              <p className="text-xs text-muted-foreground">
+              <div className="font-hershey-duplex text-6xl leading-none tracking-[-0.3rem] text-primary [--text-shadow-color:var(--primary)] text-shadow-lg">
+                2.350
+              </div>
+              <p className="text-base text-foreground text-shadow-md">
                 +180.1% from last month
               </p>
             </CardContent>
