@@ -7,7 +7,7 @@ export const buttonVariants = cva("rounded-none uppercase tracking-[3px] text-sh
   variants: {
     variant: {
       default:
-        "cursor-pointer border-2 border-success bg-success/5 text-success hover:bg-success/0 hover:text-shadow-lg hover:text-shadow-success",
+        "dotted-fill dotted-fill-success cursor-pointer border-2 border-success bg-transparent text-success hover:bg-transparent hover:text-shadow-lg hover:text-shadow-success",
       destructive: "bg-foreground",
       outline:
         "cursor-pointer border-2 border-success bg-transparent text-success hover:bg-transparent hover:shadow-md hover:shadow-success hover:text-shadow-md hover:text-shadow-success",
