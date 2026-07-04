@@ -1,5 +1,5 @@
-import { ChevronDown, ChevronUp, Check } from "lucide-react"
-import { cva, VariantProps } from "class-variance-authority"
+import { Combobox } from "@base-ui/react/combobox"
+import { SearchIcon } from "lucide-react"
 
 import { cn } from "@workspace/ui/lib/utils"
 import {
@@ -12,41 +12,33 @@ import {
   CommandSeparator as BaseCommandSeparator,
   CommandShortcut as BaseCommandShortcut,
 } from "@workspace/ui/components/command"
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-} from "@workspace/ui/components/dialog"
+import { Dialog } from "@workspace/ui/components/dialog"
 import { Separator } from "@workspace/ui/components/vector/separator"
+
+const commandInputClasses =
+  "h-10 w-full min-w-0 rounded-none border-0 bg-transparent py-2 text-base text-foreground [--text-shadow-color:var(--foreground)] text-shadow-md outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
+
+const commandInputGroupClasses =
+  "flex h-10 w-full items-center gap-2 border border-accent-foreground/80 bg-accent-foreground/5 px-3 shadow-[0_0_3px_var(--accent-foreground)] transition-[box-shadow,border-color] duration-200 focus-within:border-accent-foreground focus-within:shadow-[0_0_3px_var(--accent-foreground)]"
 
 function Command({
   className,
   ...props
 }: React.ComponentProps<typeof BaseCommand>) {
   return (
-    <div className={cn("relative !p-0", className)}>
+    <div
+      className={cn(
+        "relative border border-foreground !p-0 dark:border-ring dark:drop-shadow-lg dark:drop-shadow-ring/10",
+        className
+      )}
+    >
       <BaseCommand
         className={cn(
-          "flex h-full !w-full flex-col overflow-hidden rounded-md bg-popover uppercase tracking-wider text-popover-foreground",
+          "flex h-full !w-full flex-col overflow-hidden rounded-none border-0 bg-popover uppercase tracking-wider text-popover-foreground",
           className
         )}
         {...props}
       />
-
-      <div className="absolute -top-1.5 left-1.5 h-1.5 w-1/2 bg-foreground dark:bg-ring" />
-      <div className="absolute -top-1.5 right-1.5 h-1.5 w-1/2 bg-foreground dark:bg-ring" />
-      <div className="absolute -bottom-1.5 left-1.5 h-1.5 w-1/2 bg-foreground dark:bg-ring" />
-      <div className="absolute right-1.5 -bottom-1.5 h-1.5 w-1/2 bg-foreground dark:bg-ring" />
-      <div className="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute right-0 bottom-0 size-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute top-1.5 -left-1.5 h-1/2 w-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute top-1.5 -right-1.5 h-1/2 w-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute bottom-1.5 -left-1.5 h-1/2 w-1.5 bg-foreground dark:bg-ring" />
-      <div className="absolute -right-1.5 bottom-1.5 h-1/2 w-1.5 bg-foreground dark:bg-ring" />
     </div>
   )
 }
@@ -71,54 +63,23 @@ function CommandDialog({
 function CommandInput({
   className,
   placeholder = "Type a command or search...",
-}: {
-  className?: string
-  placeholder?: string
-}) {
+  ...props
+}: Combobox.Input.Props) {
   return (
-    <div
-      data-slot="command-input-wrapper"
-      className="flex h-10 items-center gap-2 border-b px-3"
-    >
-      <svg
-        width="30"
-        height="30"
-        viewBox="0 0 256 256"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="currentColor"
-        strokeWidth="0.25"
-        aria-label="search"
+    <Combobox.Root items={[]}>
+      <Combobox.InputGroup
+        data-slot="command-input-wrapper"
+        className={commandInputGroupClasses}
       >
-        <rect x="88" y="56" width="14" height="14" rx="1"></rect>
-        <rect x="72" y="72" width="14" height="14" rx="1"></rect>
-        <rect x="56" y="88" width="14" height="14" rx="1"></rect>
-        <rect x="56" y="104" width="14" height="14" rx="1"></rect>
-        <rect x="56" y="120" width="14" height="14" rx="1"></rect>
-        <rect x="72" y="136" width="14" height="14" rx="1"></rect>
-        <rect x="88" y="152" width="14" height="14" rx="1"></rect>
-        <rect x="104" y="152" width="14" height="14" rx="1"></rect>
-        <rect x="120" y="152" width="14" height="14" rx="1"></rect>
-        <rect x="136" y="136" width="14" height="14" rx="1"></rect>
-        <rect x="152" y="120" width="14" height="14" rx="1"></rect>
-        <rect x="152" y="104" width="14" height="14" rx="1"></rect>
-        <rect x="152" y="88" width="14" height="14" rx="1"></rect>
-        <rect x="136" y="72" width="14" height="14" rx="1"></rect>
-        <rect x="120" y="56" width="14" height="14" rx="1"></rect>
-        <rect x="104" y="56" width="14" height="14" rx="1"></rect>
-        <rect x="152" y="152" width="14" height="14" rx="1"></rect>
-        <rect x="168" y="168" width="14" height="14" rx="1"></rect>
-        <rect x="184" y="184" width="14" height="14" rx="1"></rect>
-      </svg>
-      <input
-        data-slot="command-input"
-        placeholder={placeholder}
-        className={cn(
-          "flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-hidden placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",
-          className
-        )}
-      />
-    </div>
+        <SearchIcon className="size-4 shrink-0 text-accent-foreground drop-shadow-[0_0_3px_var(--accent-foreground)]" />
+        <Combobox.Input
+          {...props}
+          data-slot="command-input"
+          placeholder={placeholder}
+          className={cn(commandInputClasses, className)}
+        />
+      </Combobox.InputGroup>
+    </Combobox.Root>
   )
 }
 
