@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import { ComponentPreview } from "@/components/docs/component-preview"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {
@@ -15,12 +16,7 @@ export default function SwitchPage() {
         </p>
       </div>
 
-      <div className="flex min-h-[200px] flex-col items-center justify-center gap-4 border border-dashed p-6">
-        <h2 className="text-sm text-muted-foreground">Preview</h2>
-        <p className="text-sm text-muted-foreground">
-          View the switch component in action on the homepage.
-        </p>
-      </div>
+      <ComponentPreview name="switch" />
 
       <InstallationCommands componentName="switch" />
     </div>
