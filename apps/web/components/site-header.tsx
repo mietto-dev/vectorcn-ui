@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 import { navItems } from "@/config/nav-items"
-import { Button } from "@workspace/ui/components/vector/button"
-import { Text } from "@workspace/ui/components/vector/text"
+import { Button } from "@workspace/ui/components/button"
+import { Text } from "@workspace/ui/components/text"
 import { ModeSwitcher } from "@/components/mode-switcher"
 import { MobileNav } from "@/components/mobile-nav"
 

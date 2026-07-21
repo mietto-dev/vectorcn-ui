@@ -6,7 +6,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <main className="relative flex w-full gap-4 p-4 pl-64">
+    <main className="relative flex w-full gap-4 p-4 md:pl-64">
       <DocsSidebar />
       <div className="max-w-full flex-1 px-4 py-4">{children}</div>
     </main>

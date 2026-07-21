@@ -13,9 +13,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/alert-dialog.tsx",
+          "path": "components/ui/alert-dialog.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/alert-dialog.tsx"
+          "target": "components/ui/alert-dialog.tsx"
         }
       ]
     },
@@ -29,9 +29,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/avatar.tsx",
+          "path": "components/ui/avatar.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/avatar.tsx"
+          "target": "components/ui/avatar.tsx"
         }
       ]
     },
@@ -45,9 +45,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/badge.tsx",
+          "path": "components/ui/badge.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/badge.tsx"
+          "target": "components/ui/badge.tsx"
         }
       ]
     },
@@ -61,9 +61,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/breadcrumb.tsx",
+          "path": "components/ui/breadcrumb.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/breadcrumb.tsx"
+          "target": "components/ui/breadcrumb.tsx"
         }
       ]
     },
@@ -77,9 +77,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/button.tsx",
+          "path": "components/ui/button.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/button.tsx"
+          "target": "components/ui/button.tsx"
         }
       ]
     },
@@ -93,9 +93,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/calendar.tsx",
+          "path": "components/ui/calendar.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/calendar.tsx"
+          "target": "components/ui/calendar.tsx"
         }
       ]
     },
@@ -109,9 +109,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/card.tsx",
+          "path": "components/ui/card.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/card.tsx"
+          "target": "components/ui/card.tsx"
         }
       ]
     },
@@ -125,9 +125,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/carousel.tsx",
+          "path": "components/ui/carousel.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/carousel.tsx"
+          "target": "components/ui/carousel.tsx"
         }
       ]
     },
@@ -141,9 +141,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/chart.tsx",
+          "path": "components/ui/chart.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/chart.tsx"
+          "target": "components/ui/chart.tsx"
         }
       ]
     },
@@ -157,9 +157,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/checkbox.tsx",
+          "path": "components/ui/checkbox.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/checkbox.tsx"
+          "target": "components/ui/checkbox.tsx"
         }
       ]
     },
@@ -173,9 +173,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/collapsible.tsx",
+          "path": "components/ui/collapsible.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/collapsible.tsx"
+          "target": "components/ui/collapsible.tsx"
         }
       ]
     },
@@ -189,9 +189,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/command.tsx",
+          "path": "components/ui/command.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/command.tsx"
+          "target": "components/ui/command.tsx"
         }
       ]
     },
@@ -205,9 +205,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/dialog.tsx",
+          "path": "components/ui/dialog.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/dialog.tsx"
+          "target": "components/ui/dialog.tsx"
         }
       ]
     },
@@ -221,9 +221,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/dropdown-menu.tsx",
+          "path": "components/ui/dropdown-menu.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/dropdown-menu.tsx"
+          "target": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -237,9 +237,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/hover-card.tsx",
+          "path": "components/ui/hover-card.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/hover-card.tsx"
+          "target": "components/ui/hover-card.tsx"
         }
       ]
     },
@@ -253,9 +253,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/input.tsx",
+          "path": "components/ui/input.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/input.tsx"
+          "target": "components/ui/input.tsx"
         }
       ]
     },
@@ -269,9 +269,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/label.tsx",
+          "path": "components/ui/label.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/label.tsx"
+          "target": "components/ui/label.tsx"
         }
       ]
     },
@@ -285,9 +285,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/pagination.tsx",
+          "path": "components/ui/pagination.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/pagination.tsx"
+          "target": "components/ui/pagination.tsx"
         }
       ]
     },
@@ -301,9 +301,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/popover.tsx",
+          "path": "components/ui/popover.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/popover.tsx"
+          "target": "components/ui/popover.tsx"
         }
       ]
     },
@@ -317,9 +317,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/progress.tsx",
+          "path": "components/ui/progress.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/progress.tsx"
+          "target": "components/ui/progress.tsx"
         }
       ]
     },
@@ -333,9 +333,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/radio-group.tsx",
+          "path": "components/ui/radio-group.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/radio-group.tsx"
+          "target": "components/ui/radio-group.tsx"
         }
       ]
     },
@@ -349,9 +349,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/resizable.tsx",
+          "path": "components/ui/resizable.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/resizable.tsx"
+          "target": "components/ui/resizable.tsx"
         }
       ]
     },
@@ -365,9 +365,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/select.tsx",
+          "path": "components/ui/select.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/select.tsx"
+          "target": "components/ui/select.tsx"
         }
       ]
     },
@@ -381,9 +381,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/separator.tsx",
+          "path": "components/ui/separator.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/separator.tsx"
+          "target": "components/ui/separator.tsx"
         }
       ]
     },
@@ -397,9 +397,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/sheet.tsx",
+          "path": "components/ui/sheet.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/sheet.tsx"
+          "target": "components/ui/sheet.tsx"
         }
       ]
     },
@@ -413,9 +413,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/skeleton.tsx",
+          "path": "components/ui/skeleton.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/skeleton.tsx"
+          "target": "components/ui/skeleton.tsx"
         }
       ]
     },
@@ -429,9 +429,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/switch.tsx",
+          "path": "components/ui/switch.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/switch.tsx"
+          "target": "components/ui/switch.tsx"
         }
       ]
     },
@@ -445,9 +445,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/table.tsx",
+          "path": "components/ui/table.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/table.tsx"
+          "target": "components/ui/table.tsx"
         }
       ]
     },
@@ -461,9 +461,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/tabs.tsx",
+          "path": "components/ui/tabs.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/tabs.tsx"
+          "target": "components/ui/tabs.tsx"
         }
       ]
     },
@@ -477,9 +477,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/textarea.tsx",
+          "path": "components/ui/textarea.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/textarea.tsx"
+          "target": "components/ui/textarea.tsx"
         }
       ]
     },
@@ -493,9 +493,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/toggle.tsx",
+          "path": "components/ui/toggle.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/toggle.tsx"
+          "target": "components/ui/toggle.tsx"
         }
       ]
     },
@@ -509,9 +509,9 @@
       ],
       "files": [
         {
-          "path": "components/ui/vector/tooltip.tsx",
+          "path": "components/ui/tooltip.tsx",
           "type": "registry:component",
-          "target": "components/ui/vector/tooltip.tsx"
+          "target": "components/ui/tooltip.tsx"
         }
       ]
     }

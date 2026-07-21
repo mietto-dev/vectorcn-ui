@@ -22,7 +22,7 @@ export default function InstallationCommands({
         .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
         .join(
           ""
-        )} } from "@/components/ui/vector/${componentName}"`}</CodeSnippet>
+        )} } from "@/components/ui/${componentName}"`}</CodeSnippet>
     </div>
   )
 }

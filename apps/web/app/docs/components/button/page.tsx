@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 
-import { Button } from "@workspace/ui/components/vector/button"
+import { Button } from "@workspace/ui/components/button"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {

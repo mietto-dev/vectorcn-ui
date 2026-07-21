@@ -1,6 +1,6 @@
 import { Metadata } from "next"
-import { Checkbox } from "@workspace/ui/components/vector/checkbox"
-import { Label } from "@workspace/ui/components/vector/label"
+import { Checkbox } from "@workspace/ui/components/checkbox"
+import { Label } from "@workspace/ui/components/label"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {

@@ -66,7 +66,7 @@
 
 ## 5. Components
 
-Each vector wrapper component lives at `components/ui/vector/<name>.tsx` and wraps a Base UI-backed shadcn base component from `packages/ui/src/components/<name>.tsx`.
+Each vector wrapper component lives at `components/ui/<name>.tsx` and wraps a Base UI-backed shadcn base component from `packages/ui/src/components/<name>.tsx`.
 
 | Vector Component | Base Component | Key CRT Modifications |
 |---|---|---|

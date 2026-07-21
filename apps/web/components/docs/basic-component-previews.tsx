@@ -1,5 +1,5 @@
-import { Avatar } from "@workspace/ui/components/vector/avatar"
-import { Badge } from "@workspace/ui/components/vector/badge"
+import { Avatar } from "@workspace/ui/components/avatar"
+import { Badge } from "@workspace/ui/components/badge"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -7,18 +7,18 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@workspace/ui/components/vector/breadcrumb"
-import { Button } from "@workspace/ui/components/vector/button"
+} from "@workspace/ui/components/breadcrumb"
+import { Button } from "@workspace/ui/components/button"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@workspace/ui/components/vector/carousel"
-import { Checkbox } from "@workspace/ui/components/vector/checkbox"
-import { Input } from "@workspace/ui/components/vector/input"
-import { Label } from "@workspace/ui/components/vector/label"
+} from "@workspace/ui/components/carousel"
+import { Checkbox } from "@workspace/ui/components/checkbox"
+import { Input } from "@workspace/ui/components/input"
+import { Label } from "@workspace/ui/components/label"
 import {
   Pagination,
   PaginationContent,
@@ -27,15 +27,15 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@workspace/ui/components/vector/pagination"
-import { Progress } from "@workspace/ui/components/vector/progress"
+} from "@workspace/ui/components/pagination"
+import { Progress } from "@workspace/ui/components/progress"
 import {
   RadioGroup,
   RadioGroupItem,
-} from "@workspace/ui/components/vector/radio-group"
-import { Separator } from "@workspace/ui/components/vector/separator"
-import { Skeleton } from "@workspace/ui/components/vector/skeleton"
-import { Switch } from "@workspace/ui/components/vector/switch"
+} from "@workspace/ui/components/radio-group"
+import { Separator } from "@workspace/ui/components/separator"
+import { Skeleton } from "@workspace/ui/components/skeleton"
+import { Switch } from "@workspace/ui/components/switch"
 import {
   Table,
   TableBody,
@@ -43,15 +43,15 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@workspace/ui/components/vector/table"
+} from "@workspace/ui/components/table"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@workspace/ui/components/vector/tabs"
-import { Textarea } from "@workspace/ui/components/vector/textarea"
-import { Toggle } from "@workspace/ui/components/vector/toggle"
+} from "@workspace/ui/components/tabs"
+import { Textarea } from "@workspace/ui/components/textarea"
+import { Toggle } from "@workspace/ui/components/toggle"
 import { CalendarExample } from "@/examples/calendar"
 import { ChartExample } from "@/components/blocks/chart"
 import { ComboBoxExample } from "@/examples/combobox"

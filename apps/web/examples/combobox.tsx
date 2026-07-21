@@ -11,12 +11,12 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@workspace/ui/components/vector/command"
+} from "@workspace/ui/components/command"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@workspace/ui/components/vector/popover"
+} from "@workspace/ui/components/popover"
 
 const frameworks = [
   { value: "next.js", label: "Next.js" },
@@ -41,8 +41,8 @@ export function ComboBoxExample() {
           : "Select framework..."}
         <ChevronsUpDown className="ml-2 size-4 shrink-0 opacity-50" />
       </PopoverTrigger>
-      <PopoverContent className="w-auto p-0 md:w-[320px]">
-        <Command>
+      <PopoverContent variant="combobox">
+        <Command className="rounded-none">
           <CommandInput placeholder="Search framework..." />
           <CommandList>
             <CommandEmpty>No framework found.</CommandEmpty>

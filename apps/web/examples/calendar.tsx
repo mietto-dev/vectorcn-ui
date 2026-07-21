@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-import { Calendar } from "@workspace/ui/components/vector/calendar"
+import { Calendar } from "@workspace/ui/components/calendar"
 
 export function CalendarExample() {
   const [date, setDate] = useState<Date | undefined>(new Date())

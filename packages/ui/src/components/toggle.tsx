@@ -1,44 +1,57 @@
-"use client"
-
 import { Toggle as TogglePrimitive } from "@base-ui/react/toggle"
 import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@workspace/ui/lib/utils"
 
-const toggleVariants = cva(
-  "group/toggle inline-flex items-center justify-center gap-1 rounded-2xl text-sm font-medium whitespace-nowrap transition-colors outline-none hover:bg-muted hover:text-foreground focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/30 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 aria-pressed:bg-muted dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
-  {
-    variants: {
-      variant: {
-        default: "bg-transparent",
-        outline: "border border-input bg-transparent hover:bg-muted",
-      },
-      size: {
-        default:
-          "h-8 min-w-8 px-2.5 has-data-[icon=inline-end]:pe-2 has-data-[icon=inline-start]:ps-2",
-        sm: "h-7 min-w-7 px-2.5 has-data-[icon=inline-end]:pe-1.5 has-data-[icon=inline-start]:ps-1.5",
-        lg: "h-9 min-w-9 px-2.5 has-data-[icon=inline-end]:pe-2 has-data-[icon=inline-start]:ps-2",
-      },
+const toggleVariants = cva("", {
+  variants: {
+    variant: {
+      default: "bg-transparent",
+      outline: "bg-transparent shadow-sm hover:bg-accent hover:text-accent-foreground",
     },
-    defaultVariants: {
-      variant: "default",
-      size: "default",
+    size: {
+      default: "h-9 min-w-9 px-2",
+      sm: "h-8 min-w-8 px-1.5",
+      lg: "h-10 min-w-10 px-2.5",
     },
-  }
-)
+  },
+  defaultVariants: {
+    variant: "default",
+    size: "default",
+  },
+})
 
-function Toggle({
-  className,
-  variant = "default",
-  size = "default",
-  ...props
-}: TogglePrimitive.Props & VariantProps<typeof toggleVariants>) {
+export interface BitToggleProps
+  extends TogglePrimitive.Props,
+    VariantProps<typeof toggleVariants> {}
+
+function Toggle({ children, className, variant, size, ...props }: BitToggleProps) {
   return (
     <TogglePrimitive
       data-slot="toggle"
-      className={cn(toggleVariants({ variant, size, className }))}
+      className={cn(
+        toggleVariants({ variant, size }),
+        "relative rounded-none border-none transition-transform active:translate-x-1 active:translate-y-1",
+        "data-pressed:bg-primary data-pressed:text-primary-foreground",
+        className
+      )}
       {...props}
-    />
+    >
+      {children}
+
+      {variant === "outline" && (
+        <>
+          <div
+            className="pointer-events-none absolute inset-0 -my-1.5 border-y-6 border-foreground dark:border-ring"
+            aria-hidden="true"
+          />
+          <div
+            className="pointer-events-none absolute inset-0 -mx-1.5 border-x-6 border-foreground dark:border-ring"
+            aria-hidden="true"
+          />
+        </>
+      )}
+    </TogglePrimitive>
   )
 }
 

@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
-import { Input } from "@workspace/ui/components/vector/input"
-import { Label } from "@workspace/ui/components/vector/label"
+import { Input } from "@workspace/ui/components/input"
+import { Label } from "@workspace/ui/components/label"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {

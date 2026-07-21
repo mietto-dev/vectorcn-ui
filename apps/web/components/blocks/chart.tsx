@@ -10,13 +10,13 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@workspace/ui/components/vector/card"
+} from "@workspace/ui/components/card"
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@workspace/ui/components/vector/chart"
+} from "@workspace/ui/components/chart"
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },

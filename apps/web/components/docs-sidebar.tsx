@@ -7,7 +7,7 @@ import { navItems } from "@/config/nav-items"
 
 export function DocsSidebar() {
   return (
-    <aside className="fixed left-0 top-14 z-30 h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-dashed bg-background p-4">
+    <aside className="fixed left-0 top-14 z-30 hidden h-[calc(100vh-3.5rem)] w-64 overflow-y-auto border-r border-dashed bg-background p-4 md:block">
       <nav className="flex flex-col gap-1">
         {navItems.navMain.map((group) => (
           <div key={group.title} className="mb-4">

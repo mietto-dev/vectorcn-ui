@@ -48,7 +48,7 @@ export default function Page() {
           can then import it like this:
         </p>
         <pre className="overflow-x-auto bg-muted p-4 text-sm">
-          <code>{`import { Button } from "@/components/ui/vector/button"
+          <code>{`import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (

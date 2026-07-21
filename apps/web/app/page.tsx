@@ -2,25 +2,25 @@ import { Activity, Upload, Users } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
-import { Text } from "@workspace/ui/components/vector/text"
-import { Button } from "@workspace/ui/components/vector/button"
+import { Text } from "@workspace/ui/components/text"
+import { Button } from "@workspace/ui/components/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@workspace/ui/components/vector/card"
-import { Input } from "@workspace/ui/components/vector/input"
-import { Label } from "@workspace/ui/components/vector/label"
+} from "@workspace/ui/components/card"
+import { Input } from "@workspace/ui/components/input"
+import { Label } from "@workspace/ui/components/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@workspace/ui/components/vector/select"
-import { Textarea } from "@workspace/ui/components/vector/textarea"
+} from "@workspace/ui/components/select"
+import { Textarea } from "@workspace/ui/components/textarea"
 import { CalendarExample } from "@/examples/calendar"
 import { CommandExample } from "@/examples/command"
 import { ChartExample } from "@/components/blocks/chart"

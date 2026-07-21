@@ -1,4 +1,4 @@
-import { Button } from "@workspace/ui/components/vector/button"
+import { Button } from "@workspace/ui/components/button"
 import {
   AlertDialog,
   AlertDialogAction,
@@ -9,12 +9,12 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@workspace/ui/components/vector/alert-dialog"
+} from "@workspace/ui/components/alert-dialog"
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@workspace/ui/components/vector/collapsible"
+} from "@workspace/ui/components/collapsible"
 import {
   Dialog,
   DialogContent,
@@ -23,7 +23,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@workspace/ui/components/vector/dialog"
+} from "@workspace/ui/components/dialog"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -31,17 +31,17 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@workspace/ui/components/vector/dropdown-menu"
+} from "@workspace/ui/components/dropdown-menu"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@workspace/ui/components/vector/hover-card"
+} from "@workspace/ui/components/hover-card"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@workspace/ui/components/vector/popover"
+} from "@workspace/ui/components/popover"
 import {
   Select,
   SelectContent,
@@ -50,7 +50,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@workspace/ui/components/vector/select"
+} from "@workspace/ui/components/select"
 import {
   Sheet,
   SheetContent,
@@ -58,13 +58,13 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@workspace/ui/components/vector/sheet"
+} from "@workspace/ui/components/sheet"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@workspace/ui/components/vector/tooltip"
+} from "@workspace/ui/components/tooltip"
 import { CommandExample } from "@/examples/command"
 
 export function AlertDialogPreview() {

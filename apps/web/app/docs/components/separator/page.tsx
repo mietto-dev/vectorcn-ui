@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { Separator } from "@workspace/ui/components/vector/separator"
+import { Separator } from "@workspace/ui/components/separator"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {

@@ -19,7 +19,7 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "@workspace/ui/components/vector/command"
+} from "@workspace/ui/components/command"
 
 const suggestionCommands = [
   {

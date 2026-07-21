@@ -1,5 +1,5 @@
 import { Metadata } from "next"
-import { Badge } from "@workspace/ui/components/vector/badge"
+import { Badge } from "@workspace/ui/components/badge"
 import InstallationCommands from "../installation-commands"
 
 export const metadata: Metadata = {
