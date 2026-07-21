@@ -43,7 +43,7 @@ function CardHeader({ className, ...props }: BitCardProps) {
     <div
       data-slot="card-header"
       className={cn(
-        "uppercase tracking-[3px] leading-7 text-shadow-md font-bold",
+        "px-(--card-spacing) uppercase tracking-[3px] leading-7 text-shadow-md font-bold",
         cardHeaderIconClasses,
         groupedCardHeaderClasses,
         className
@@ -75,7 +75,7 @@ function CardAction({ className, ...props }: BitCardProps) {
 }
 
 function CardContent({ className, ...props }: BitCardProps) {
-  return <div data-slot="card-content" className={cn(className)} {...props} />
+  return <div data-slot="card-content" className={cn("px-(--card-spacing)", className)} {...props} />
 }
 
 function CardFooter({ className, ...props }: BitCardProps) {
